@@ -1,0 +1,1545 @@
+2023-01-19 15:50:27,979 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-19 15:50:28,337 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-19 15:50:28,696 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-19 15:51:09,722 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-19 15:51:10,124 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-19 15:51:10,480 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-19 15:51:41,854 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-19 15:51:54,100 - SanityTestCases -INFO - Test WEB_78 has passed
+2023-01-19 15:52:16,564 - SanityTestCases -INFO - Test WEB_79 has passed
+2023-01-20 08:37:53,783 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-20 08:37:55,019 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-20 08:37:55,445 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-20 08:38:04,863 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-20 08:38:10,337 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-20 08:38:25,358 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-20 08:38:26,478 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-20 08:38:32,117 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-20 08:38:46,221 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-20 08:38:47,981 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-20 08:38:49,406 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-20 08:39:22,066 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-20 08:39:47,293 - SanityTestCases -INFO - Test WEB_13 has passed
+2023-01-20 08:39:54,717 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-20 08:39:55,925 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-20 08:39:57,031 - SanityTestCases -INFO - Test WEB_16 has passed
+2023-01-20 08:39:57,366 - SanityTestCases -INFO - Test WEB_17 has passed
+2023-01-20 08:39:58,478 - SanityTestCases -INFO - Test WEB_18 has passed
+2023-01-20 08:39:59,427 - SanityTestCases -INFO - Test WEB_19 has passed
+2023-01-20 08:40:00,531 - SanityTestCases -INFO - Test WEB_20 has passed
+2023-01-20 08:40:07,622 - SanityTestCases -INFO - Test WEB_21 has passed
+2023-01-20 08:40:20,380 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-20 08:40:35,959 - SanityTestCases -INFO - Test WEB_23 has passed
+2023-01-20 08:40:48,705 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-20 08:41:10,865 - SanityTestCases -INFO - Test WEB_25 has passed
+2023-01-20 08:41:17,144 - SanityTestCases -INFO - Test WEB_26 has passed
+2023-01-20 08:41:29,785 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-20 08:41:43,195 - SanityTestCases -INFO - Test WEB_28 has passed
+2023-01-20 08:42:12,154 - SanityTestCases -INFO - Test WEB_29 has passed
+2023-01-20 08:42:26,711 - SanityTestCases -INFO - Test WEB_30 has passed
+2023-01-20 08:42:27,110 - SanityTestCases -INFO - Test WEB_31 has passed
+2023-01-20 08:42:48,135 - SanityTestCases -INFO - Test WEB_31_1 has passed
+2023-01-20 08:44:10,582 - SanityTestCases -INFO - Test WEB_34 has passed
+2023-01-20 08:45:08,599 - SanityTestCases -INFO - Test WEB_36 has passed
+2023-01-20 08:46:03,699 - SanityTestCases -INFO - Test WEB_39 has passed
+2023-01-20 08:46:37,209 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-20 08:46:38,363 - SanityTestCases -INFO - Test WEB_44 has passed
+2023-01-20 08:46:55,450 - SanityTestCases -INFO - Test WEB_47 has passed
+2023-01-20 08:47:07,326 - SanityTestCases -INFO - Test WEB_48 has passed
+2023-01-20 08:47:08,224 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-20 08:47:23,191 - SanityTestCases -INFO - Test WEB_50 has passed
+2023-01-20 08:47:53,524 - SanityTestCases -INFO - Test WEB_52_1 has passed
+2023-01-20 08:47:54,649 - SanityTestCases -INFO - Test WEB_52_2 has passed
+2023-01-20 08:47:55,195 - SanityTestCases -INFO - Test WEB_52_3 has passed
+2023-01-20 08:47:56,409 - SanityTestCases -INFO - Test WEB_52_4 has passed
+2023-01-20 08:48:17,119 - SanityTestCases -INFO - Test WEB_52_5 has passed
+2023-01-20 08:52:01,344 - SanityTestCases -INFO - Test WEB_60 has passed
+2023-01-20 08:54:03,437 - SanityTestCases -INFO - Test WEB_63 has passed
+2023-01-20 08:54:33,227 - SanityTestCases -INFO - Test WEB_64 has passed
+2023-01-20 08:55:19,925 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-20 08:55:36,266 - SanityTestCases -INFO - Test WEB_66 has passed
+2023-01-20 08:56:07,498 - SanityTestCases -INFO - Test WEB_67 has passed
+2023-01-20 08:57:37,199 - SanityTestCases -INFO - Test WEB_69 has passed
+2023-01-20 08:57:57,729 - SanityTestCases -INFO - Test WEB_70 has passed
+2023-01-20 08:58:26,156 - SanityTestCases -INFO - Test WEB_71 has passed
+2023-01-20 08:58:48,899 - SanityTestCases -INFO - Test WEB_72 has passed
+2023-01-20 08:59:10,824 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-20 08:59:51,295 - SanityTestCases -INFO - Test WEB_74 has passed
+2023-01-20 09:01:02,900 - SanityTestCases -INFO - Test WEB_76 has passed
+2023-01-20 09:03:59,326 - SanityTestCases -INFO - Test WEB_86 has passed
+2023-01-20 09:09:54,147 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-20 09:09:55,294 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-20 09:09:55,652 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-20 09:10:07,060 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-20 09:10:10,971 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-20 09:10:25,305 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-20 09:10:25,677 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-20 09:10:32,764 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-20 09:10:46,713 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-20 09:10:47,997 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-20 09:10:49,116 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-20 09:11:21,934 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-20 09:11:47,116 - SanityTestCases -INFO - Test WEB_13 has passed
+2023-01-20 09:11:54,061 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-20 09:11:56,117 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-20 09:11:56,510 - SanityTestCases -INFO - Test WEB_16 has passed
+2023-01-20 09:11:57,636 - SanityTestCases -INFO - Test WEB_17 has passed
+2023-01-20 09:11:58,000 - SanityTestCases -INFO - Test WEB_18 has passed
+2023-01-20 09:11:58,399 - SanityTestCases -INFO - Test WEB_19 has passed
+2023-01-20 09:11:59,492 - SanityTestCases -INFO - Test WEB_20 has passed
+2023-01-20 09:12:06,612 - SanityTestCases -INFO - Test WEB_21 has passed
+2023-01-20 09:12:18,424 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-20 09:12:32,600 - SanityTestCases -INFO - Test WEB_23 has passed
+2023-01-20 09:12:45,865 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-20 09:13:08,108 - SanityTestCases -INFO - Test WEB_25 has passed
+2023-01-20 09:13:10,655 - SanityTestCases -INFO - Test WEB_26 has passed
+2023-01-20 09:13:20,995 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-20 09:13:34,316 - SanityTestCases -INFO - Test WEB_28 has passed
+2023-01-20 09:14:05,230 - SanityTestCases -INFO - Test WEB_29 has passed
+2023-01-20 09:14:18,621 - SanityTestCases -INFO - Test WEB_30 has passed
+2023-01-20 09:14:19,767 - SanityTestCases -INFO - Test WEB_31 has passed
+2023-01-20 09:14:42,134 - SanityTestCases -INFO - Test WEB_31_1 has passed
+2023-01-20 09:15:02,193 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-20 09:15:38,069 - SanityTestCases -INFO - Test WEB_33 has passed
+2023-01-20 09:15:58,894 - SanityTestCases -INFO - Test WEB_34 has passed
+2023-01-20 09:16:46,660 - SanityTestCases -INFO - Test WEB_35 has passed
+2023-01-20 09:17:13,310 - SanityTestCases -INFO - Test WEB_36 has passed
+2023-01-20 09:17:37,110 - SanityTestCases -INFO - Test WEB_37 has passed
+2023-01-20 09:18:03,243 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-20 09:18:04,391 - SanityTestCases -INFO - Test WEB_39 has passed
+2023-01-20 09:18:38,547 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-20 09:18:39,106 - SanityTestCases -INFO - Test WEB_44 has passed
+2023-01-20 09:18:54,438 - SanityTestCases -INFO - Test WEB_47 has passed
+2023-01-20 09:19:06,288 - SanityTestCases -INFO - Test WEB_48 has passed
+2023-01-20 09:19:07,045 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-20 09:19:22,430 - SanityTestCases -INFO - Test WEB_50 has passed
+2023-01-20 09:19:46,820 - SanityTestCases -INFO - Test WEB_51 has passed
+2023-01-20 09:19:48,962 - SanityTestCases -INFO - Test WEB_52_1 has passed
+2023-01-20 09:19:50,077 - SanityTestCases -INFO - Test WEB_52_2 has passed
+2023-01-20 09:19:50,617 - SanityTestCases -INFO - Test WEB_52_3 has passed
+2023-01-20 09:19:53,043 - SanityTestCases -INFO - Test WEB_52_4 has passed
+2023-01-20 09:20:16,727 - SanityTestCases -INFO - Test WEB_52_5 has passed
+2023-01-20 09:20:39,383 - SanityTestCases -INFO - Test WEB_53 has passed
+2023-01-20 09:21:04,469 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-20 09:21:25,882 - SanityTestCases -INFO - Test WEB_55 has passed
+2023-01-20 09:21:50,003 - SanityTestCases -INFO - Test WEB_56 has passed
+2023-01-20 09:22:20,570 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-20 09:23:07,801 - SanityTestCases -INFO - Test WEB_59 has passed
+2023-01-20 09:23:29,420 - SanityTestCases -INFO - Test WEB_60 has passed
+2023-01-20 09:24:17,939 - SanityTestCases -INFO - Test WEB_61 has passed
+2023-01-20 09:24:55,555 - SanityTestCases -INFO - Test WEB_62 has passed
+2023-01-20 09:25:41,390 - SanityTestCases -INFO - Test WEB_63 has passed
+2023-01-20 09:26:10,850 - SanityTestCases -INFO - Test WEB_64 has passed
+2023-01-20 09:26:55,569 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-20 09:27:12,276 - SanityTestCases -INFO - Test WEB_66 has passed
+2023-01-20 09:27:43,650 - SanityTestCases -INFO - Test WEB_67 has passed
+2023-01-20 09:29:10,513 - SanityTestCases -INFO - Test WEB_69 has passed
+2023-01-20 09:29:31,602 - SanityTestCases -INFO - Test WEB_70 has passed
+2023-01-20 09:30:03,072 - SanityTestCases -INFO - Test WEB_71 has passed
+2023-01-20 09:30:27,697 - SanityTestCases -INFO - Test WEB_72 has passed
+2023-01-20 09:30:50,246 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-20 09:31:29,241 - SanityTestCases -INFO - Test WEB_74 has passed
+2023-01-20 09:32:42,531 - SanityTestCases -INFO - Test WEB_76 has passed
+2023-01-20 09:33:10,633 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-20 09:34:43,605 - SanityTestCases -INFO - Test WEB_83 has passed
+2023-01-20 09:35:16,606 - SanityTestCases -INFO - Test WEB_84 has passed
+2023-01-20 09:35:45,731 - SanityTestCases -INFO - Test WEB_86 has passed
+2023-01-20 09:52:50,126 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-20 09:52:52,396 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-20 09:52:52,838 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-20 09:53:31,393 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-20 09:53:55,730 - SanityTestCases -INFO - Test WEB_13 has passed
+2023-01-20 09:54:02,139 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-20 09:54:03,380 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-20 09:54:04,549 - SanityTestCases -INFO - Test WEB_16 has passed
+2023-01-20 09:54:04,927 - SanityTestCases -INFO - Test WEB_17 has passed
+2023-01-20 09:54:06,038 - SanityTestCases -INFO - Test WEB_18 has passed
+2023-01-20 09:54:07,160 - SanityTestCases -INFO - Test WEB_19 has passed
+2023-01-20 09:54:07,520 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-20 09:54:07,889 - SanityTestCases -INFO - Test WEB_20 has passed
+2023-01-20 09:54:14,956 - SanityTestCases -INFO - Test WEB_21 has passed
+2023-01-20 09:54:26,777 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-20 09:54:42,280 - SanityTestCases -INFO - Test WEB_23 has passed
+2023-01-20 09:54:55,560 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-20 09:55:17,283 - SanityTestCases -INFO - Test WEB_25 has passed
+2023-01-20 09:55:23,501 - SanityTestCases -INFO - Test WEB_26 has passed
+2023-01-20 09:55:34,626 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-20 09:55:48,452 - SanityTestCases -INFO - Test WEB_28 has passed
+2023-01-20 09:56:17,926 - SanityTestCases -INFO - Test WEB_29 has passed
+2023-01-20 09:56:19,180 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-20 09:56:32,224 - SanityTestCases -INFO - Test WEB_30 has passed
+2023-01-20 09:56:33,340 - SanityTestCases -INFO - Test WEB_31 has passed
+2023-01-20 09:56:54,849 - SanityTestCases -INFO - Test WEB_31_1 has passed
+2023-01-20 09:57:18,259 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-20 09:57:56,349 - SanityTestCases -INFO - Test WEB_33 has passed
+2023-01-20 09:58:20,328 - SanityTestCases -INFO - Test WEB_34 has passed
+2023-01-20 09:59:07,953 - SanityTestCases -INFO - Test WEB_35 has passed
+2023-01-20 09:59:38,778 - SanityTestCases -INFO - Test WEB_36 has passed
+2023-01-20 10:00:02,196 - SanityTestCases -INFO - Test WEB_37 has passed
+2023-01-20 10:00:33,520 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-20 10:00:34,724 - SanityTestCases -INFO - Test WEB_39 has passed
+2023-01-20 10:00:40,416 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-20 10:01:15,305 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-20 10:01:16,532 - SanityTestCases -INFO - Test WEB_44 has passed
+2023-01-20 10:01:34,815 - SanityTestCases -INFO - Test WEB_47 has passed
+2023-01-20 10:01:47,112 - SanityTestCases -INFO - Test WEB_48 has passed
+2023-01-20 10:01:49,425 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-20 10:01:51,594 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-20 10:02:09,113 - SanityTestCases -INFO - Test WEB_50 has passed
+2023-01-20 10:02:33,014 - SanityTestCases -INFO - Test WEB_51 has passed
+2023-01-20 10:02:34,897 - SanityTestCases -INFO - Test WEB_52_1 has passed
+2023-01-20 10:02:35,489 - SanityTestCases -INFO - Test WEB_52_2 has passed
+2023-01-20 10:02:36,764 - SanityTestCases -INFO - Test WEB_52_3 has passed
+2023-01-20 10:02:37,997 - SanityTestCases -INFO - Test WEB_52_4 has passed
+2023-01-20 10:03:03,068 - SanityTestCases -INFO - Test WEB_52_5 has passed
+2023-01-20 10:03:24,968 - SanityTestCases -INFO - Test WEB_53 has passed
+2023-01-20 10:03:49,997 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-20 10:04:11,502 - SanityTestCases -INFO - Test WEB_55 has passed
+2023-01-20 10:05:17,898 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-20 10:06:05,646 - SanityTestCases -INFO - Test WEB_59 has passed
+2023-01-20 10:06:19,670 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-20 10:06:44,293 - SanityTestCases -INFO - Test WEB_60 has passed
+2023-01-20 10:07:30,438 - SanityTestCases -INFO - Test WEB_61 has passed
+2023-01-20 10:08:51,615 - SanityTestCases -INFO - Test WEB_63 has passed
+2023-01-20 10:09:21,359 - SanityTestCases -INFO - Test WEB_64 has passed
+2023-01-20 10:10:06,420 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-20 10:10:23,297 - SanityTestCases -INFO - Test WEB_66 has passed
+2023-01-20 10:10:55,001 - SanityTestCases -INFO - Test WEB_67 has passed
+2023-01-20 10:12:22,155 - SanityTestCases -INFO - Test WEB_69 has passed
+2023-01-20 10:12:23,387 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-20 10:12:44,195 - SanityTestCases -INFO - Test WEB_70 has passed
+2023-01-20 10:13:12,601 - SanityTestCases -INFO - Test WEB_71 has passed
+2023-01-20 10:13:36,232 - SanityTestCases -INFO - Test WEB_72 has passed
+2023-01-20 10:13:58,795 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-20 10:14:38,256 - SanityTestCases -INFO - Test WEB_74 has passed
+2023-01-20 10:15:50,874 - SanityTestCases -INFO - Test WEB_76 has passed
+2023-01-20 10:16:18,509 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-20 10:16:37,967 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-20 10:18:06,795 - SanityTestCases -INFO - Test WEB_83 has passed
+2023-01-20 10:18:37,973 - SanityTestCases -INFO - Test WEB_84 has passed
+2023-01-20 10:19:09,626 - SanityTestCases -INFO - Test WEB_86 has passed
+2023-01-20 10:19:24,255 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-20 17:04:25,583 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-20 17:07:20,676 - SanityTestCases -INFO - Test WEB_40 has passed
+2023-01-20 17:08:27,820 - SanityTestCases -INFO - Test WEB_41 has passed
+2023-01-20 17:10:05,605 - SanityTestCases -INFO - Test WEB_56 has passed
+2023-01-20 17:11:12,619 - SanityTestCases -INFO - Test WEB_45 has passed
+2023-01-20 17:12:17,004 - SanityTestCases -INFO - Test WEB_42 has passed
+2023-01-20 17:13:32,479 - SanityTestCases -INFO - Test WEB_62 has passed
+2023-01-20 17:18:41,028 - SanityTestCases -INFO - Test WEB_79 has passed
+2023-01-20 17:19:56,807 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-20 17:20:05,631 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-20 18:20:53,582 - SanityTestCases -INFO - Test WEB_82 has passed
+2023-01-20 18:23:04,739 - SanityTestCases -INFO - Test WEB_82 has passed
+2023-01-20 18:25:37,857 - SanityTestCases -INFO - Test WEB_75 has passed
+2023-01-20 18:32:42,402 - SanityTestCases -INFO - Test WEB_75 has passed
+2023-01-20 18:36:31,365 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-20 18:36:32,880 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-20 18:36:34,168 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-20 18:37:12,215 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-20 18:37:39,123 - SanityTestCases -INFO - Test WEB_13 has passed
+2023-01-20 18:37:41,056 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-20 18:37:43,004 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-20 18:37:44,240 - SanityTestCases -INFO - Test WEB_16 has passed
+2023-01-20 18:37:44,588 - SanityTestCases -INFO - Test WEB_17 has passed
+2023-01-20 18:37:45,820 - SanityTestCases -INFO - Test WEB_18 has passed
+2023-01-20 18:37:46,214 - SanityTestCases -INFO - Test WEB_19 has passed
+2023-01-20 18:37:46,547 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-20 18:37:47,672 - SanityTestCases -INFO - Test WEB_20 has passed
+2023-01-20 18:37:54,771 - SanityTestCases -INFO - Test WEB_21 has passed
+2023-01-20 18:38:06,739 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-20 18:38:20,759 - SanityTestCases -INFO - Test WEB_23 has passed
+2023-01-20 18:38:34,033 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-20 18:38:56,276 - SanityTestCases -INFO - Test WEB_25 has passed
+2023-01-20 18:39:02,694 - SanityTestCases -INFO - Test WEB_26 has passed
+2023-01-20 18:39:14,161 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-20 18:39:27,534 - SanityTestCases -INFO - Test WEB_28 has passed
+2023-01-20 18:39:58,192 - SanityTestCases -INFO - Test WEB_29 has passed
+2023-01-20 18:39:59,466 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-20 18:40:12,441 - SanityTestCases -INFO - Test WEB_30 has passed
+2023-01-20 18:40:13,548 - SanityTestCases -INFO - Test WEB_31 has passed
+2023-01-20 18:40:34,446 - SanityTestCases -INFO - Test WEB_31_1 has passed
+2023-01-20 18:40:58,724 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-20 18:41:32,852 - SanityTestCases -INFO - Test WEB_33 has passed
+2023-01-20 18:41:53,649 - SanityTestCases -INFO - Test WEB_34 has passed
+2023-01-20 18:42:41,832 - SanityTestCases -INFO - Test WEB_35 has passed
+2023-01-20 18:43:09,975 - SanityTestCases -INFO - Test WEB_36 has passed
+2023-01-20 18:43:33,805 - SanityTestCases -INFO - Test WEB_37 has passed
+2023-01-20 18:44:00,038 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-20 18:44:01,179 - SanityTestCases -INFO - Test WEB_39 has passed
+2023-01-20 18:44:06,923 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-20 18:44:13,963 - SanityTestCases -INFO - Test WEB_40 has passed
+2023-01-20 18:44:22,058 - SanityTestCases -INFO - Test WEB_41 has passed
+2023-01-20 18:44:23,167 - SanityTestCases -INFO - Test WEB_42 has passed
+2023-01-20 18:44:24,242 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-20 18:44:24,805 - SanityTestCases -INFO - Test WEB_44 has passed
+2023-01-20 18:44:32,084 - SanityTestCases -INFO - Test WEB_45 has passed
+2023-01-20 18:44:33,667 - SanityTestCases -INFO - Test WEB_47 has passed
+2023-01-20 18:44:45,549 - SanityTestCases -INFO - Test WEB_48 has passed
+2023-01-20 18:44:47,141 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-20 18:44:52,060 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-20 18:45:07,072 - SanityTestCases -INFO - Test WEB_50 has passed
+2023-01-20 18:45:30,231 - SanityTestCases -INFO - Test WEB_51 has passed
+2023-01-20 18:45:31,978 - SanityTestCases -INFO - Test WEB_52_1 has passed
+2023-01-20 18:45:33,121 - SanityTestCases -INFO - Test WEB_52_2 has passed
+2023-01-20 18:45:33,717 - SanityTestCases -INFO - Test WEB_52_3 has passed
+2023-01-20 18:45:34,935 - SanityTestCases -INFO - Test WEB_52_4 has passed
+2023-01-20 18:45:57,408 - SanityTestCases -INFO - Test WEB_52_5 has passed
+2023-01-20 18:46:18,932 - SanityTestCases -INFO - Test WEB_53 has passed
+2023-01-20 18:46:44,292 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-20 18:47:05,455 - SanityTestCases -INFO - Test WEB_55 has passed
+2023-01-20 18:47:29,210 - SanityTestCases -INFO - Test WEB_56 has passed
+2023-01-20 18:47:56,840 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-20 18:48:41,070 - SanityTestCases -INFO - Test WEB_59 has passed
+2023-01-20 18:48:50,723 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-20 18:48:51,816 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-20 18:49:13,528 - SanityTestCases -INFO - Test WEB_60 has passed
+2023-01-20 18:49:59,334 - SanityTestCases -INFO - Test WEB_61 has passed
+2023-01-20 18:50:33,671 - SanityTestCases -INFO - Test WEB_62 has passed
+2023-01-20 18:51:22,987 - SanityTestCases -INFO - Test WEB_63 has passed
+2023-01-20 18:51:52,870 - SanityTestCases -INFO - Test WEB_64 has passed
+2023-01-20 18:53:26,118 - SanityTestCases -INFO - Test WEB_67 has passed
+2023-01-20 18:54:52,614 - SanityTestCases -INFO - Test WEB_69 has passed
+2023-01-20 18:54:53,851 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-20 18:55:14,389 - SanityTestCases -INFO - Test WEB_70 has passed
+2023-01-20 18:55:42,860 - SanityTestCases -INFO - Test WEB_71 has passed
+2023-01-20 18:56:03,050 - SanityTestCases -INFO - Test WEB_72 has passed
+2023-01-20 18:56:25,180 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-20 18:57:03,857 - SanityTestCases -INFO - Test WEB_74 has passed
+2023-01-20 18:57:43,816 - SanityTestCases -INFO - Test WEB_75 has passed
+2023-01-20 18:58:32,719 - SanityTestCases -INFO - Test WEB_76 has passed
+2023-01-20 18:59:00,038 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-20 18:59:11,844 - SanityTestCases -INFO - Test WEB_78 has passed
+2023-01-20 18:59:33,985 - SanityTestCases -INFO - Test WEB_79 has passed
+2023-01-20 18:59:41,532 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-20 19:00:10,903 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-20 19:00:19,602 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-20 19:02:09,349 - SanityTestCases -INFO - Test WEB_82 has passed
+2023-01-20 19:02:38,064 - SanityTestCases -INFO - Test WEB_83 has passed
+2023-01-20 19:03:11,769 - SanityTestCases -INFO - Test WEB_84 has passed
+2023-01-20 19:04:06,334 - SanityTestCases -INFO - Test WEB_85 has passed
+2023-01-20 19:04:28,953 - SanityTestCases -INFO - Test WEB_86 has passed
+2023-01-20 19:04:44,735 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-25 09:03:49,785 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-25 09:06:13,591 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-25 09:11:19,771 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-25 09:11:26,463 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-25 09:22:51,974 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-25 09:23:41,367 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-25 09:28:02,568 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-25 09:31:13,225 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-25 09:40:17,770 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-25 09:40:50,096 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-25 09:44:10,280 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-25 09:50:25,238 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-25 09:54:09,514 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-25 09:55:15,451 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-25 10:26:38,454 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-25 10:27:18,596 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-25 10:29:09,442 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-25 10:43:53,515 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-25 10:53:34,315 - SanityTestCases -INFO - Test WEB_20 has passed
+2023-01-25 10:54:36,758 - SanityTestCases -INFO - Test WEB_21 has passed
+2023-01-25 10:56:18,972 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-25 11:02:47,095 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-25 11:42:24,501 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-25 11:49:57,560 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-25 11:50:30,950 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-25 11:57:31,485 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-25 11:59:19,184 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-25 12:04:11,892 - SanityTestCases -INFO - Test WEB_33 has passed
+2023-01-25 12:10:00,741 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-25 12:12:09,637 - SanityTestCases -INFO - Test WEB_39 has passed
+2023-01-25 12:15:18,696 - SanityTestCases -INFO - Test WEB_39 has passed
+2023-01-25 12:19:28,457 - SanityTestCases -INFO - Test WEB_40 has passed
+2023-01-25 12:25:56,461 - SanityTestCases -INFO - Test WEB_41 has passed
+2023-01-25 12:26:25,233 - SanityTestCases -INFO - Test WEB_41 has passed
+2023-01-25 12:27:43,472 - SanityTestCases -INFO - Test WEB_41 has passed
+2023-01-25 12:29:47,657 - SanityTestCases -INFO - Test WEB_42 has passed
+2023-01-25 12:40:40,147 - SanityTestCases -INFO - Test WEB_45 has passed
+2023-01-25 12:41:18,621 - SanityTestCases -INFO - Test WEB_45 has passed
+2023-01-25 12:42:21,891 - SanityTestCases -ERROR - Test WEB_46 has failed
+2023-01-25 12:42:34,502 - SanityTestCases -ERROR - Test WEB_46 has failed
+2023-01-25 12:42:45,904 - SanityTestCases -ERROR - Test WEB_46 has failed
+2023-01-25 12:50:42,275 - SanityTestCases -INFO - Test WEB_47 has passed
+2023-01-25 12:56:26,954 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-25 12:57:14,779 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-25 12:57:39,897 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-25 12:59:30,190 - SanityTestCases -INFO - Test WEB_51 has passed
+2023-01-25 13:02:40,590 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-25 13:04:55,054 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-25 13:12:47,050 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-25 13:13:36,925 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-25 13:16:34,259 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-25 13:22:26,624 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-25 13:23:56,176 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-25 13:27:33,098 - SanityTestCases -INFO - Test WEB_60 has passed
+2023-01-25 13:38:36,689 - SanityTestCases -INFO - Test WEB_75 has passed
+2023-01-25 13:39:42,981 - SanityTestCases -INFO - Test WEB_75 has passed
+2023-01-25 13:41:17,317 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-25 13:48:51,910 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-25 13:50:10,119 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-25 13:55:04,585 - SanityTestCases -INFO - Test WEB_83 has passed
+2023-01-25 13:56:18,315 - SanityTestCases -INFO - Test WEB_83 has passed
+2023-01-25 13:57:17,245 - SanityTestCases -INFO - Test WEB_84 has passed
+2023-01-25 14:03:52,885 - SanityTestCases -INFO - Test WEB_84 has passed
+2023-01-25 14:05:13,307 - SanityTestCases -INFO - Test WEB_84 has passed
+2023-01-25 14:07:45,307 - SanityTestCases -INFO - Test WEB_86 has passed
+2023-01-25 14:18:44,763 - SanityTestCases -INFO - Test WEB_30 has passed
+2023-01-25 14:34:16,069 - SanityTestCases -INFO - Test WEB_28 has passed
+2023-01-25 15:09:41,740 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-25 15:17:30,939 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-25 15:17:31,786 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-25 15:17:32,676 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-25 15:17:35,676 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-25 15:17:36,553 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-25 15:17:37,214 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-25 15:17:39,310 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-25 15:17:42,482 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-25 15:17:49,590 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-25 15:17:50,517 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-25 15:17:51,430 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-25 15:17:52,265 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-25 15:17:54,817 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-25 15:29:51,120 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-25 15:33:00,613 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-25 15:33:42,042 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-25 15:40:54,175 - SanityTestCases -INFO - Test WEB_33 has passed
+2023-01-25 19:49:15,497 - SanityTestCases -INFO - Test WEB_35 has passed
+2023-01-25 19:49:37,822 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-25 19:51:07,520 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-25 19:51:28,984 - SanityTestCases -INFO - Test WEB_56 has passed
+2023-01-25 20:00:46,791 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-25 20:11:27,139 - SanityTestCases -INFO - Test WEB_51 has passed
+2023-01-25 20:14:31,964 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-25 20:15:55,373 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-26 09:53:22,410 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-26 09:55:56,880 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-26 11:35:12,568 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-26 11:40:24,422 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-26 11:43:06,761 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-26 11:47:57,091 - SanityTestCases -INFO - Test WEB_25 has passed
+2023-01-26 11:49:46,711 - SanityTestCases -INFO - Test WEB_33 has passed
+2023-01-26 11:51:02,280 - SanityTestCases -INFO - Test WEB_42 has passed
+2023-01-26 11:59:08,907 - SanityTestCases -INFO - Test WEB_42 has passed
+2023-01-26 12:00:56,696 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-26 12:02:45,134 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-26 12:03:31,364 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-26 12:09:38,189 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 12:09:39,578 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-26 12:09:40,933 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-26 12:09:43,058 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-26 12:10:11,814 - SanityTestCases -INFO - Test WEB_13 has passed
+2023-01-26 12:10:14,564 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-26 12:10:15,323 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-26 12:10:16,578 - SanityTestCases -INFO - Test WEB_16 has passed
+2023-01-26 12:10:17,000 - SanityTestCases -INFO - Test WEB_17 has passed
+2023-01-26 12:10:18,177 - SanityTestCases -INFO - Test WEB_18 has passed
+2023-01-26 12:10:18,712 - SanityTestCases -INFO - Test WEB_19 has passed
+2023-01-26 12:10:19,840 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-26 12:10:20,955 - SanityTestCases -INFO - Test WEB_20 has passed
+2023-01-26 12:10:27,442 - SanityTestCases -INFO - Test WEB_21 has passed
+2023-01-26 12:10:40,038 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-26 12:11:00,043 - SanityTestCases -INFO - Test WEB_23 has passed
+2023-01-26 12:11:19,316 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-26 12:11:37,934 - SanityTestCases -INFO - Test WEB_25 has passed
+2023-01-26 12:11:44,165 - SanityTestCases -INFO - Test WEB_26 has passed
+2023-01-26 12:11:54,492 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-26 12:12:13,968 - SanityTestCases -INFO - Test WEB_28 has passed
+2023-01-26 12:12:42,031 - SanityTestCases -INFO - Test WEB_29 has passed
+2023-01-26 12:12:43,364 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-26 12:13:04,241 - SanityTestCases -INFO - Test WEB_30 has passed
+2023-01-26 12:13:04,617 - SanityTestCases -INFO - Test WEB_31 has passed
+2023-01-26 12:13:26,118 - SanityTestCases -INFO - Test WEB_31_1 has passed
+2023-01-26 12:13:56,496 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-26 12:14:27,845 - SanityTestCases -INFO - Test WEB_33 has passed
+2023-01-26 12:14:51,046 - SanityTestCases -INFO - Test WEB_34 has passed
+2023-01-26 12:15:36,214 - SanityTestCases -INFO - Test WEB_35 has passed
+2023-01-26 12:16:06,968 - SanityTestCases -INFO - Test WEB_36 has passed
+2023-01-26 12:16:28,234 - SanityTestCases -INFO - Test WEB_37 has passed
+2023-01-26 12:17:10,861 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-26 12:17:11,307 - SanityTestCases -INFO - Test WEB_39 has passed
+2023-01-26 12:17:12,464 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-26 12:17:13,826 - SanityTestCases -INFO - Test WEB_40 has passed
+2023-01-26 12:18:07,140 - SanityTestCases -INFO - Test WEB_41 has passed
+2023-01-26 12:18:08,309 - SanityTestCases -INFO - Test WEB_42 has passed
+2023-01-26 12:18:08,784 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-26 12:18:09,915 - SanityTestCases -INFO - Test WEB_44 has passed
+2023-01-26 12:18:10,565 - SanityTestCases -INFO - Test WEB_45 has passed
+2023-01-26 12:18:17,929 - SanityTestCases -INFO - Test WEB_47 has passed
+2023-01-26 12:18:29,939 - SanityTestCases -INFO - Test WEB_48 has passed
+2023-01-26 12:18:33,683 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-26 12:18:36,228 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-26 12:18:55,355 - SanityTestCases -INFO - Test WEB_50 has passed
+2023-01-26 12:19:25,505 - SanityTestCases -INFO - Test WEB_51 has passed
+2023-01-26 12:19:27,396 - SanityTestCases -INFO - Test WEB_52_1 has passed
+2023-01-26 12:19:28,569 - SanityTestCases -INFO - Test WEB_52_2 has passed
+2023-01-26 12:19:29,189 - SanityTestCases -INFO - Test WEB_52_3 has passed
+2023-01-26 12:19:30,415 - SanityTestCases -INFO - Test WEB_52_4 has passed
+2023-01-26 12:19:51,970 - SanityTestCases -INFO - Test WEB_52_5 has passed
+2023-01-26 12:20:16,766 - SanityTestCases -INFO - Test WEB_53 has passed
+2023-01-26 12:20:39,623 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-26 12:21:04,051 - SanityTestCases -INFO - Test WEB_55 has passed
+2023-01-26 12:21:26,015 - SanityTestCases -INFO - Test WEB_56 has passed
+2023-01-26 12:21:53,246 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-26 12:22:40,029 - SanityTestCases -INFO - Test WEB_59 has passed
+2023-01-26 12:22:42,163 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-26 12:22:42,570 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-26 12:23:05,428 - SanityTestCases -INFO - Test WEB_60 has passed
+2023-01-26 12:23:52,039 - SanityTestCases -INFO - Test WEB_61 has passed
+2023-01-26 12:25:17,754 - SanityTestCases -INFO - Test WEB_63 has passed
+2023-01-26 12:25:49,365 - SanityTestCases -INFO - Test WEB_64 has passed
+2023-01-26 12:26:35,050 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-26 12:26:55,335 - SanityTestCases -INFO - Test WEB_66 has passed
+2023-01-26 12:27:28,389 - SanityTestCases -INFO - Test WEB_67 has passed
+2023-01-26 12:28:55,186 - SanityTestCases -INFO - Test WEB_69 has passed
+2023-01-26 12:28:56,431 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-26 12:29:17,584 - SanityTestCases -INFO - Test WEB_70 has passed
+2023-01-26 12:29:46,963 - SanityTestCases -INFO - Test WEB_71 has passed
+2023-01-26 12:30:11,136 - SanityTestCases -INFO - Test WEB_72 has passed
+2023-01-26 12:30:33,820 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-26 12:31:14,894 - SanityTestCases -INFO - Test WEB_74 has passed
+2023-01-26 12:31:55,258 - SanityTestCases -INFO - Test WEB_75 has passed
+2023-01-26 12:32:44,921 - SanityTestCases -INFO - Test WEB_76 has passed
+2023-01-26 12:33:27,333 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-26 12:33:40,846 - SanityTestCases -INFO - Test WEB_78 has passed
+2023-01-26 12:34:06,899 - SanityTestCases -INFO - Test WEB_79 has passed
+2023-01-26 12:34:08,228 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-26 12:35:32,916 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-26 12:35:43,119 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-26 12:37:32,400 - SanityTestCases -INFO - Test WEB_82 has passed
+2023-01-26 12:38:06,604 - SanityTestCases -INFO - Test WEB_83 has passed
+2023-01-26 12:38:49,894 - SanityTestCases -INFO - Test WEB_84 has passed
+2023-01-26 12:39:45,812 - SanityTestCases -INFO - Test WEB_85 has passed
+2023-01-26 12:40:14,860 - SanityTestCases -INFO - Test WEB_86 has passed
+2023-01-26 12:40:17,671 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-26 13:08:27,842 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-26 13:17:37,231 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-26 13:20:57,412 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-26 13:24:50,792 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-26 13:26:03,886 - SanityTestCases -INFO - Test WEB_62 has passed
+2023-01-26 13:30:40,635 - SanityTestCases -INFO - Test WEB_62 has passed
+2023-01-26 13:34:24,848 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 13:34:26,080 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-26 13:34:26,581 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-26 13:34:28,862 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-26 13:34:58,340 - SanityTestCases -INFO - Test WEB_13 has passed
+2023-01-26 13:35:04,112 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-26 13:35:06,269 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-26 13:35:06,921 - SanityTestCases -INFO - Test WEB_16 has passed
+2023-01-26 13:35:08,052 - SanityTestCases -INFO - Test WEB_17 has passed
+2023-01-26 13:35:09,232 - SanityTestCases -INFO - Test WEB_18 has passed
+2023-01-26 13:35:09,762 - SanityTestCases -INFO - Test WEB_19 has passed
+2023-01-26 13:35:10,902 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-26 13:35:11,302 - SanityTestCases -INFO - Test WEB_20 has passed
+2023-01-26 13:35:18,438 - SanityTestCases -INFO - Test WEB_21 has passed
+2023-01-26 13:35:30,995 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-26 13:35:51,067 - SanityTestCases -INFO - Test WEB_23 has passed
+2023-01-26 13:36:10,325 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-26 13:36:29,528 - SanityTestCases -INFO - Test WEB_25 has passed
+2023-01-26 13:36:32,467 - SanityTestCases -INFO - Test WEB_26 has passed
+2023-01-26 13:36:44,912 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-26 13:37:04,600 - SanityTestCases -INFO - Test WEB_28 has passed
+2023-01-26 13:37:33,338 - SanityTestCases -INFO - Test WEB_29 has passed
+2023-01-26 13:37:33,844 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-26 13:37:54,839 - SanityTestCases -INFO - Test WEB_30 has passed
+2023-01-26 13:37:55,300 - SanityTestCases -INFO - Test WEB_31 has passed
+2023-01-26 13:38:19,029 - SanityTestCases -INFO - Test WEB_31_1 has passed
+2023-01-26 13:39:54,318 - SanityTestCases -INFO - Test WEB_34 has passed
+2023-01-26 13:40:40,860 - SanityTestCases -INFO - Test WEB_35 has passed
+2023-01-26 13:41:08,733 - SanityTestCases -INFO - Test WEB_36 has passed
+2023-01-26 13:41:32,451 - SanityTestCases -INFO - Test WEB_37 has passed
+2023-01-26 13:42:12,540 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-26 13:42:13,638 - SanityTestCases -INFO - Test WEB_39 has passed
+2023-01-26 13:42:14,058 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-26 13:42:17,237 - SanityTestCases -INFO - Test WEB_40 has passed
+2023-01-26 13:43:10,271 - SanityTestCases -INFO - Test WEB_41 has passed
+2023-01-26 13:43:10,850 - SanityTestCases -INFO - Test WEB_42 has passed
+2023-01-26 13:43:12,207 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-26 13:43:12,822 - SanityTestCases -INFO - Test WEB_44 has passed
+2023-01-26 13:43:15,027 - SanityTestCases -INFO - Test WEB_45 has passed
+2023-01-26 13:43:23,055 - SanityTestCases -INFO - Test WEB_47 has passed
+2023-01-26 13:43:34,348 - SanityTestCases -INFO - Test WEB_48 has passed
+2023-01-26 13:43:38,302 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-26 13:43:40,434 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-26 13:43:57,622 - SanityTestCases -INFO - Test WEB_50 has passed
+2023-01-26 13:44:27,424 - SanityTestCases -INFO - Test WEB_51 has passed
+2023-01-26 13:44:30,190 - SanityTestCases -INFO - Test WEB_52_1 has passed
+2023-01-26 13:44:31,358 - SanityTestCases -INFO - Test WEB_52_2 has passed
+2023-01-26 13:44:32,069 - SanityTestCases -INFO - Test WEB_52_3 has passed
+2023-01-26 13:44:33,349 - SanityTestCases -INFO - Test WEB_52_4 has passed
+2023-01-26 13:44:55,916 - SanityTestCases -INFO - Test WEB_52_5 has passed
+2023-01-26 13:45:20,603 - SanityTestCases -INFO - Test WEB_53 has passed
+2023-01-26 13:45:43,416 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-26 13:46:07,926 - SanityTestCases -INFO - Test WEB_55 has passed
+2023-01-26 13:46:30,134 - SanityTestCases -INFO - Test WEB_56 has passed
+2023-01-26 13:47:01,961 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-26 13:47:46,777 - SanityTestCases -INFO - Test WEB_59 has passed
+2023-01-26 13:47:49,105 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-26 13:47:49,732 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-26 13:48:12,560 - SanityTestCases -INFO - Test WEB_60 has passed
+2023-01-26 13:48:59,352 - SanityTestCases -INFO - Test WEB_61 has passed
+2023-01-26 13:50:01,111 - SanityTestCases -INFO - Test WEB_62 has passed
+2023-01-26 13:50:48,066 - SanityTestCases -INFO - Test WEB_63 has passed
+2023-01-26 13:51:21,075 - SanityTestCases -INFO - Test WEB_64 has passed
+2023-01-26 13:52:13,785 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-26 13:52:31,283 - SanityTestCases -INFO - Test WEB_66 has passed
+2023-01-26 13:53:05,763 - SanityTestCases -INFO - Test WEB_67 has passed
+2023-01-26 13:54:33,032 - SanityTestCases -INFO - Test WEB_69 has passed
+2023-01-26 13:54:34,296 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-26 13:54:57,935 - SanityTestCases -INFO - Test WEB_70 has passed
+2023-01-26 13:55:27,303 - SanityTestCases -INFO - Test WEB_71 has passed
+2023-01-26 13:55:50,325 - SanityTestCases -INFO - Test WEB_72 has passed
+2023-01-26 13:56:13,130 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-26 13:56:54,095 - SanityTestCases -INFO - Test WEB_74 has passed
+2023-01-26 13:57:34,362 - SanityTestCases -INFO - Test WEB_75 has passed
+2023-01-26 13:58:27,346 - SanityTestCases -INFO - Test WEB_76 has passed
+2023-01-26 13:59:11,435 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-26 13:59:24,331 - SanityTestCases -INFO - Test WEB_78 has passed
+2023-01-26 13:59:50,621 - SanityTestCases -INFO - Test WEB_79 has passed
+2023-01-26 13:59:51,984 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-26 14:01:16,601 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-26 14:01:26,724 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-26 14:03:18,184 - SanityTestCases -INFO - Test WEB_82 has passed
+2023-01-26 14:03:51,436 - SanityTestCases -INFO - Test WEB_83 has passed
+2023-01-26 14:04:34,526 - SanityTestCases -INFO - Test WEB_84 has passed
+2023-01-26 14:05:30,296 - SanityTestCases -INFO - Test WEB_85 has passed
+2023-01-26 14:06:01,414 - SanityTestCases -INFO - Test WEB_86 has passed
+2023-01-26 14:06:03,859 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-26 14:26:51,123 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 14:26:52,327 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-26 14:26:52,783 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-26 14:26:53,939 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-26 14:27:21,160 - SanityTestCases -INFO - Test WEB_13 has passed
+2023-01-26 14:27:28,292 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-26 14:27:29,653 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-26 14:27:30,818 - SanityTestCases -INFO - Test WEB_16 has passed
+2023-01-26 14:27:31,159 - SanityTestCases -INFO - Test WEB_17 has passed
+2023-01-26 14:27:32,339 - SanityTestCases -INFO - Test WEB_18 has passed
+2023-01-26 14:27:32,820 - SanityTestCases -INFO - Test WEB_19 has passed
+2023-01-26 14:27:33,930 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-26 14:27:34,482 - SanityTestCases -INFO - Test WEB_20 has passed
+2023-01-26 14:27:41,566 - SanityTestCases -INFO - Test WEB_21 has passed
+2023-01-26 14:27:53,343 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-26 14:28:14,651 - SanityTestCases -INFO - Test WEB_23 has passed
+2023-01-26 14:28:33,923 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-26 14:28:53,087 - SanityTestCases -INFO - Test WEB_25 has passed
+2023-01-26 14:28:59,339 - SanityTestCases -INFO - Test WEB_26 has passed
+2023-01-26 14:29:11,744 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-26 14:29:31,568 - SanityTestCases -INFO - Test WEB_28 has passed
+2023-01-26 14:30:00,418 - SanityTestCases -INFO - Test WEB_29 has passed
+2023-01-26 14:30:00,990 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-26 14:30:21,984 - SanityTestCases -INFO - Test WEB_30 has passed
+2023-01-26 14:30:22,377 - SanityTestCases -INFO - Test WEB_31 has passed
+2023-01-26 14:30:45,990 - SanityTestCases -INFO - Test WEB_31_1 has passed
+2023-01-26 14:31:24,367 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-26 14:32:17,610 - SanityTestCases -INFO - Test WEB_34 has passed
+2023-01-26 14:33:06,052 - SanityTestCases -INFO - Test WEB_35 has passed
+2023-01-26 14:33:33,487 - SanityTestCases -INFO - Test WEB_36 has passed
+2023-01-26 14:33:57,154 - SanityTestCases -INFO - Test WEB_37 has passed
+2023-01-26 14:34:38,322 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-26 14:34:39,383 - SanityTestCases -INFO - Test WEB_39 has passed
+2023-01-26 14:34:40,595 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-26 14:34:43,008 - SanityTestCases -INFO - Test WEB_40 has passed
+2023-01-26 14:34:48,554 - SanityTestCases -INFO - Test WEB_41 has passed
+2023-01-26 14:34:49,742 - SanityTestCases -INFO - Test WEB_42 has passed
+2023-01-26 14:34:50,210 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-26 14:34:51,553 - SanityTestCases -INFO - Test WEB_44 has passed
+2023-01-26 14:34:52,917 - SanityTestCases -INFO - Test WEB_45 has passed
+2023-01-26 14:35:01,767 - SanityTestCases -INFO - Test WEB_47 has passed
+2023-01-26 14:35:17,871 - SanityTestCases -INFO - Test WEB_48 has passed
+2023-01-26 14:35:22,022 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-26 14:35:24,469 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-26 14:35:41,606 - SanityTestCases -INFO - Test WEB_50 has passed
+2023-01-26 14:36:14,739 - SanityTestCases -INFO - Test WEB_51 has passed
+2023-01-26 14:36:16,841 - SanityTestCases -INFO - Test WEB_52_1 has passed
+2023-01-26 14:36:17,409 - SanityTestCases -INFO - Test WEB_52_2 has passed
+2023-01-26 14:36:18,626 - SanityTestCases -INFO - Test WEB_52_3 has passed
+2023-01-26 14:36:19,261 - SanityTestCases -INFO - Test WEB_52_4 has passed
+2023-01-26 14:36:42,407 - SanityTestCases -INFO - Test WEB_52_5 has passed
+2023-01-26 14:37:06,814 - SanityTestCases -INFO - Test WEB_53 has passed
+2023-01-26 14:37:31,545 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-26 14:37:53,514 - SanityTestCases -INFO - Test WEB_55 has passed
+2023-01-26 14:38:15,485 - SanityTestCases -INFO - Test WEB_56 has passed
+2023-01-26 14:38:46,220 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-26 14:39:31,857 - SanityTestCases -INFO - Test WEB_59 has passed
+2023-01-26 14:39:34,457 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-26 14:39:34,888 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-26 14:39:57,605 - SanityTestCases -INFO - Test WEB_60 has passed
+2023-01-26 14:40:44,715 - SanityTestCases -INFO - Test WEB_61 has passed
+2023-01-26 14:42:34,954 - SanityTestCases -INFO - Test WEB_63 has passed
+2023-01-26 14:43:09,956 - SanityTestCases -INFO - Test WEB_64 has passed
+2023-01-26 14:44:00,209 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-26 14:44:18,071 - SanityTestCases -INFO - Test WEB_66 has passed
+2023-01-26 14:46:13,609 - SanityTestCases -INFO - Test WEB_69 has passed
+2023-01-26 14:46:15,389 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-26 14:46:36,425 - SanityTestCases -INFO - Test WEB_70 has passed
+2023-01-26 14:47:07,827 - SanityTestCases -INFO - Test WEB_71 has passed
+2023-01-26 14:47:31,651 - SanityTestCases -INFO - Test WEB_72 has passed
+2023-01-26 14:47:54,279 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-26 14:48:36,234 - SanityTestCases -INFO - Test WEB_74 has passed
+2023-01-26 14:49:17,330 - SanityTestCases -INFO - Test WEB_75 has passed
+2023-01-26 14:50:07,440 - SanityTestCases -INFO - Test WEB_76 has passed
+2023-01-26 14:50:50,899 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-26 14:51:03,915 - SanityTestCases -INFO - Test WEB_78 has passed
+2023-01-26 14:51:29,780 - SanityTestCases -INFO - Test WEB_79 has passed
+2023-01-26 14:51:31,035 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-26 14:52:55,522 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-26 14:53:05,760 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-26 14:54:55,056 - SanityTestCases -INFO - Test WEB_82 has passed
+2023-01-26 14:55:28,251 - SanityTestCases -INFO - Test WEB_83 has passed
+2023-01-26 14:56:10,339 - SanityTestCases -INFO - Test WEB_84 has passed
+2023-01-26 14:57:06,128 - SanityTestCases -INFO - Test WEB_85 has passed
+2023-01-26 14:57:37,184 - SanityTestCases -INFO - Test WEB_86 has passed
+2023-01-26 14:57:39,789 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-26 16:18:17,223 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 16:18:18,423 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-26 16:18:19,593 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-26 16:18:21,575 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-26 16:18:47,645 - SanityTestCases -INFO - Test WEB_13 has passed
+2023-01-26 16:18:54,325 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-26 16:18:56,321 - SanityTestCases -INFO - Test WEB_15 has passed
+2023-01-26 16:18:56,709 - SanityTestCases -INFO - Test WEB_16 has passed
+2023-01-26 16:18:57,043 - SanityTestCases -INFO - Test WEB_17 has passed
+2023-01-26 16:18:58,202 - SanityTestCases -INFO - Test WEB_18 has passed
+2023-01-26 16:18:58,599 - SanityTestCases -INFO - Test WEB_19 has passed
+2023-01-26 16:18:59,691 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-26 16:19:00,009 - SanityTestCases -INFO - Test WEB_20 has passed
+2023-01-26 16:19:07,085 - SanityTestCases -INFO - Test WEB_21 has passed
+2023-01-26 16:19:19,657 - SanityTestCases -INFO - Test WEB_22 has passed
+2023-01-26 16:19:40,163 - SanityTestCases -INFO - Test WEB_23 has passed
+2023-01-26 16:19:58,789 - SanityTestCases -INFO - Test WEB_24 has passed
+2023-01-26 16:20:17,929 - SanityTestCases -INFO - Test WEB_25 has passed
+2023-01-26 16:20:23,974 - SanityTestCases -INFO - Test WEB_26 has passed
+2023-01-26 16:20:35,725 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-26 16:20:56,379 - SanityTestCases -INFO - Test WEB_28 has passed
+2023-01-26 16:21:29,254 - SanityTestCases -INFO - Test WEB_29 has passed
+2023-01-26 16:21:30,438 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-26 16:21:49,985 - SanityTestCases -INFO - Test WEB_30 has passed
+2023-01-26 16:21:51,069 - SanityTestCases -INFO - Test WEB_31 has passed
+2023-01-26 16:22:14,364 - SanityTestCases -INFO - Test WEB_31_1 has passed
+2023-01-26 16:22:55,831 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-26 16:23:31,749 - SanityTestCases -INFO - Test WEB_33 has passed
+2023-01-26 16:23:59,385 - SanityTestCases -INFO - Test WEB_34 has passed
+2023-01-26 16:24:47,465 - SanityTestCases -INFO - Test WEB_35 has passed
+2023-01-26 16:25:14,834 - SanityTestCases -INFO - Test WEB_36 has passed
+2023-01-26 16:25:36,462 - SanityTestCases -INFO - Test WEB_37 has passed
+2023-01-26 16:26:20,379 - SanityTestCases -INFO - Test WEB_38 has passed
+2023-01-26 16:26:21,431 - SanityTestCases -INFO - Test WEB_39 has passed
+2023-01-26 16:26:22,614 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-26 16:26:24,350 - SanityTestCases -INFO - Test WEB_40 has passed
+2023-01-26 16:27:14,924 - SanityTestCases -INFO - Test WEB_41 has passed
+2023-01-26 16:27:16,079 - SanityTestCases -INFO - Test WEB_42 has passed
+2023-01-26 16:27:16,517 - SanityTestCases -INFO - Test WEB_43 has passed
+2023-01-26 16:27:17,620 - SanityTestCases -INFO - Test WEB_44 has passed
+2023-01-26 16:27:19,625 - SanityTestCases -INFO - Test WEB_45 has passed
+2023-01-26 16:27:26,879 - SanityTestCases -INFO - Test WEB_47 has passed
+2023-01-26 16:27:39,285 - SanityTestCases -INFO - Test WEB_48 has passed
+2023-01-26 16:27:44,775 - SanityTestCases -INFO - Test WEB_49 has passed
+2023-01-26 16:27:46,721 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-26 16:28:03,343 - SanityTestCases -INFO - Test WEB_50 has passed
+2023-01-26 16:28:33,165 - SanityTestCases -INFO - Test WEB_51 has passed
+2023-01-26 16:28:34,892 - SanityTestCases -INFO - Test WEB_52_1 has passed
+2023-01-26 16:28:35,990 - SanityTestCases -INFO - Test WEB_52_2 has passed
+2023-01-26 16:28:36,516 - SanityTestCases -INFO - Test WEB_52_3 has passed
+2023-01-26 16:28:37,009 - SanityTestCases -INFO - Test WEB_52_4 has passed
+2023-01-26 16:29:01,356 - SanityTestCases -INFO - Test WEB_52_5 has passed
+2023-01-26 16:29:25,731 - SanityTestCases -INFO - Test WEB_53 has passed
+2023-01-26 16:29:47,874 - SanityTestCases -INFO - Test WEB_54 has passed
+2023-01-26 16:30:12,003 - SanityTestCases -INFO - Test WEB_55 has passed
+2023-01-26 16:30:33,789 - SanityTestCases -INFO - Test WEB_56 has passed
+2023-01-26 16:31:04,257 - SanityTestCases -INFO - Test WEB_57 has passed
+2023-01-26 16:31:50,326 - SanityTestCases -INFO - Test WEB_59 has passed
+2023-01-26 16:31:51,015 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-26 16:31:52,175 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-26 16:32:14,035 - SanityTestCases -INFO - Test WEB_60 has passed
+2023-01-26 16:33:00,672 - SanityTestCases -INFO - Test WEB_61 has passed
+2023-01-26 16:34:02,705 - SanityTestCases -INFO - Test WEB_62 has passed
+2023-01-26 16:34:49,889 - SanityTestCases -INFO - Test WEB_63 has passed
+2023-01-26 16:35:21,791 - SanityTestCases -INFO - Test WEB_64 has passed
+2023-01-26 16:36:14,991 - SanityTestCases -INFO - Test WEB_65 has passed
+2023-01-26 16:36:32,378 - SanityTestCases -INFO - Test WEB_66 has passed
+2023-01-26 16:37:07,652 - SanityTestCases -INFO - Test WEB_67 has passed
+2023-01-26 16:38:33,514 - SanityTestCases -INFO - Test WEB_69 has passed
+2023-01-26 16:38:34,685 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-26 16:38:59,300 - SanityTestCases -INFO - Test WEB_70 has passed
+2023-01-26 16:39:28,733 - SanityTestCases -INFO - Test WEB_71 has passed
+2023-01-26 16:39:51,723 - SanityTestCases -INFO - Test WEB_72 has passed
+2023-01-26 16:40:14,286 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-26 16:40:54,584 - SanityTestCases -INFO - Test WEB_74 has passed
+2023-01-26 16:41:35,338 - SanityTestCases -INFO - Test WEB_75 has passed
+2023-01-26 16:42:26,270 - SanityTestCases -INFO - Test WEB_76 has passed
+2023-01-26 16:43:08,613 - SanityTestCases -INFO - Test WEB_77 has passed
+2023-01-26 16:43:21,799 - SanityTestCases -INFO - Test WEB_78 has passed
+2023-01-26 16:43:47,930 - SanityTestCases -INFO - Test WEB_79 has passed
+2023-01-26 16:43:49,158 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-26 16:45:13,950 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-26 16:45:24,315 - SanityTestCases -INFO - Test WEB_80 has passed
+2023-01-26 16:47:17,219 - SanityTestCases -INFO - Test WEB_82 has passed
+2023-01-26 16:48:00,767 - SanityTestCases -INFO - Test WEB_84 has passed
+2023-01-26 16:48:57,892 - SanityTestCases -INFO - Test WEB_85 has passed
+2023-01-26 16:49:28,658 - SanityTestCases -INFO - Test WEB_86 has passed
+2023-01-26 16:49:30,978 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-26 21:11:55,994 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 21:11:57,175 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-26 21:11:57,721 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-26 21:12:01,322 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-26 21:14:58,497 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 21:14:58,889 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-26 21:14:59,387 - SanityTestCases -INFO - Test WEB_11 has passed
+2023-01-26 21:15:03,225 - SanityTestCases -INFO - Test WEB_12 has passed
+2023-01-26 21:19:32,969 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 21:19:33,368 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-26 21:19:34,469 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-26 21:25:24,136 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 21:25:24,505 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-26 21:25:25,675 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-26 21:28:58,401 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 21:28:59,554 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-26 21:29:00,660 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-26 21:30:20,546 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 21:30:21,687 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-26 21:30:22,834 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-26 22:18:27,043 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-26 22:18:27,440 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-26 22:18:28,613 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-27 08:51:58,718 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-27 08:51:59,147 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-27 08:52:00,328 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-27 09:05:29,846 - SanityTestCases -INFO - Test WEB_31_1 has passed
+2023-01-27 09:06:04,463 - SanityTestCases -INFO - Test WEB_32 has passed
+2023-01-27 12:08:57,714 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-27 12:41:52,473 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-27 12:42:11,483 - SanityTestCases -INFO - Test WEB_50 has passed
+2023-01-28 11:14:18,724 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-01-28 11:14:37,525 - SanityTestCases -INFO - Test WEB_50 has passed
+2023-01-30 09:41:20,981 - SanityTestCases -INFO - Test WEB_68 has failed
+2023-01-30 10:23:42,699 - SanityTestCases -INFO - Test WEB_62 has passed
+2023-01-30 10:25:17,633 - SanityTestCases -INFO - Test WEB_62 has passed
+2023-01-30 10:57:53,271 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-30 10:57:54,212 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-30 10:57:55,058 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-30 10:57:55,772 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-30 10:57:57,974 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-30 10:58:00,917 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-30 10:58:07,657 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-30 10:58:08,489 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-30 10:58:09,401 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-30 10:58:10,201 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-30 10:58:12,874 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-30 10:59:02,128 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-30 10:59:03,058 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-30 10:59:03,963 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-30 10:59:04,818 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-30 10:59:07,051 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-30 10:59:09,603 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-30 10:59:15,536 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-30 10:59:16,380 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-30 10:59:17,258 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-30 10:59:18,085 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-30 10:59:20,484 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-30 11:00:47,706 - SanityTestCases -INFO - Test WEB_63 has passed
+2023-01-30 12:41:46,240 - SanityTestCases -INFO - Test WEB_35 has passed
+2023-01-30 12:43:15,723 - SanityTestCases -INFO - Test WEB_35 has passed
+2023-01-30 12:47:26,940 - SanityTestCases -INFO - Test WEB_66 has passed
+2023-01-30 12:49:44,800 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-30 14:47:13,763 - SanityTestCases -INFO - Test WEB_68 has failed
+2023-01-30 14:47:39,541 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-30 14:49:49,154 - SanityTestCases -INFO - Test WEB_73 has passed
+2023-01-30 14:58:08,323 - SanityTestCases -INFO - Test WEB_42 has failed
+2023-01-30 15:00:03,256 - SanityTestCases -INFO - Test WEB_42 has failed
+2023-01-30 15:00:04,043 - SanityTestCases -INFO - Test WEB_52_1 has passed
+2023-01-30 15:00:05,320 - SanityTestCases -INFO - Test WEB_52_2 has passed
+2023-01-30 15:00:07,121 - SanityTestCases -INFO - Test WEB_52_3 has passed
+2023-01-30 15:00:08,436 - SanityTestCases -INFO - Test WEB_52_4 has passed
+2023-01-30 15:00:32,958 - SanityTestCases -INFO - Test WEB_52_5 has passed
+2023-01-31 08:36:20,242 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-01-31 08:36:21,469 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-01-31 08:36:22,673 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-01-31 08:36:23,802 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-01-31 08:36:26,652 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-01-31 08:36:29,770 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-01-31 08:36:31,915 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-01-31 08:36:32,262 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-01-31 08:36:32,760 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-01-31 08:36:34,155 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-01-31 08:36:36,556 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-01-31 11:07:27,900 - SanityTestCases -INFO - Test WEB_67 has passed
+2023-02-01 10:18:08,858 - SanityTestCases -INFO - Test WEB_67 has passed
+2023-02-01 10:20:37,791 - SanityTestCases -INFO - Test WEB_67 has passed
+2023-02-01 10:25:39,076 - SanityTestCases -INFO - Test WEB_70 has passed
+2023-02-02 11:24:39,421 - SanityTestCases -INFO - Test WEB_42 has failed
+2023-02-02 11:25:01,805 - SanityTestCases -INFO - Test WEB_70 has passed
+2023-02-02 11:25:53,623 - SanityTestCases -INFO - Test WEB_42 has failed
+2023-02-08 11:57:05,241 - SanityTestCases -INFO - Test WEB_52_1 has passed
+2023-02-13 08:54:22,835 - SanityTestCases -INFO - Test WEB_79 has passed
+2023-02-13 08:56:26,343 - SanityTestCases -INFO - Test WEB_66 has passed
+2023-02-13 09:10:53,108 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-02-13 09:11:34,945 - SanityTestCases -INFO - Test WEB_10 has passed
+2023-02-13 09:11:35,858 - SanityTestCases -INFO - Test WEB_2 has passed
+2023-02-13 09:11:36,630 - SanityTestCases -INFO - Test WEB_3 has passed
+2023-02-13 09:11:38,737 - SanityTestCases -INFO - Test WEB_4 has passed
+2023-02-13 09:11:40,460 - SanityTestCases -INFO - Test WEB_5 has passed
+2023-02-13 09:11:46,325 - SanityTestCases -INFO - Test WEB_5_2 has passed
+2023-02-13 09:11:47,147 - SanityTestCases -INFO - Test WEB_6 has passed
+2023-02-13 09:11:48,038 - SanityTestCases -INFO - Test WEB_7 has passed
+2023-02-13 09:11:49,723 - SanityTestCases -INFO - Test WEB_8 has passed
+2023-02-13 09:11:51,254 - SanityTestCases -INFO - Test WEB_9 has passed
+2023-02-16 10:34:34,050 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-02-16 10:35:05,469 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-02-16 10:41:59,943 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-02-16 10:50:36,631 - SanityTestCases -INFO - Test WEB_1 has passed
+2023-02-16 10:51:11,317 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 10:51:32,225 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 10:56:33,521 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 11:00:34,862 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 11:07:00,588 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 11:07:29,818 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 11:07:48,124 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 11:10:31,868 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 11:11:14,177 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 11:18:04,580 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 11:18:04,582 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 11:20:11,436 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 11:20:32,413 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 11:34:24,661 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 11:39:23,361 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 11:41:04,950 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 11:43:48,975 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 11:49:10,222 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 11:50:12,929 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 11:50:14,051 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 11:57:17,122 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 12:05:36,724 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 12:07:36,235 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 12:12:42,887 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:13:48,621 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 12:14:35,120 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 12:17:27,185 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 12:18:38,695 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 12:18:39,766 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 12:21:28,393 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 12:21:30,385 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 12:21:32,011 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:21:53,771 - HomePage -ERROR - The promotion banner does not contain an image
+2023-02-16 12:21:55,724 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 12:21:56,364 - HomePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 12:25:46,253 - ProductListingPage -INFO - All links are visible
+2023-02-16 12:25:46,266 - ProductListingPage -INFO - All links are visible
+2023-02-16 12:25:46,275 - ProductListingPage -INFO - All links are visible
+2023-02-16 12:34:32,000 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:34:32,464 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:34:35,911 - ProductListingPage -INFO - The promotion banner contains an image
+2023-02-16 12:34:54,778 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:34:55,928 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:34:59,545 - ProductListingPage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 12:37:20,535 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:37:21,755 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:37:23,786 - LegalPage -INFO - The promotion banner contains an image
+2023-02-16 12:37:41,214 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:37:42,421 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:37:44,481 - LegalPage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 12:40:07,575 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:40:08,735 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:40:09,798 - BasePage -INFO - The promotion banner contains an image
+2023-02-16 12:40:45,476 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:40:45,955 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:40:47,023 - BasePage -ERROR - The promotion banner does not match with the expected text.
+2023-02-16 12:42:02,212 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:42:03,370 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:42:17,269 - SanityTestCases -INFO - Test WEB_27 has passed
+2023-02-16 12:47:34,197 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:47:34,773 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:47:43,017 - HomePage -INFO - Product Dropdown is enabled and visible
+2023-02-16 12:47:46,125 - HomePage -INFO - Category Dropdown is enabled and visible
+2023-02-16 12:47:46,274 - HomePage -INFO - Texts are matching
+2023-02-16 12:47:46,292 - HomePage -INFO - Texts are matching
+2023-02-16 12:47:49,181 - HomePage -INFO - pdf viewer is displayed
+2023-02-16 12:48:13,073 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:48:14,233 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:48:22,295 - HomePage -INFO - Product Dropdown is enabled and visible
+2023-02-16 12:48:25,403 - HomePage -INFO - Category Dropdown is enabled and visible
+2023-02-16 12:48:25,559 - HomePage -INFO - Texts are matching
+2023-02-16 12:48:25,578 - HomePage -ERROR - Texts are not matching.
+2023-02-16 12:51:14,691 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:51:15,087 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:51:22,265 - ProductListingPage -INFO - Texts are matching
+2023-02-16 12:51:34,450 - ProductListingPage -INFO - Texts are matching
+2023-02-16 12:51:53,699 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:51:54,118 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:52:01,559 - ProductListingPage -INFO - Texts are matching
+2023-02-16 12:52:13,742 - ProductListingPage -ERROR - Texts are not matching.
+2023-02-16 12:54:26,508 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:54:26,964 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:54:34,218 - ProductListingPage -INFO - Texts are matching
+2023-02-16 12:54:46,434 - ProductListingPage -INFO - Texts are matching
+2023-02-16 12:56:58,351 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:56:58,828 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 12:57:20,903 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:01:22,217 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:01:23,452 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:01:27,984 - HomePage -INFO - dropdowns are displayed
+2023-02-16 13:01:34,220 - HomePage -INFO - Texts are matching
+2023-02-16 13:01:34,253 - HomePage -INFO - Texts are matching
+2023-02-16 13:01:35,893 - HomePage -INFO - Pdf is displayed
+2023-02-16 13:05:14,202 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:05:15,741 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:47:54,985 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:47:56,121 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:47:57,702 - ProductListingPage -INFO - Breadcrumb contains a link.
+2023-02-16 13:48:31,918 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:48:33,329 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:48:36,015 - ProductListingPage -ERROR - Breadcrumb does not contain a link.
+2023-02-16 13:50:50,531 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:50:51,031 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:50:52,249 - HomePage -INFO - Verified title and description
+2023-02-16 13:52:05,601 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:52:06,092 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:52:58,809 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:53:00,049 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:55:15,314 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:55:15,750 - HomePage -INFO - The description is 6 lines
+2023-02-16 13:55:15,763 - HomePage -INFO - The description is 6 lines
+2023-02-16 13:55:15,775 - HomePage -INFO - The description is 6 lines
+2023-02-16 13:55:15,791 - HomePage -INFO - The description is 6 lines
+2023-02-16 13:55:15,807 - HomePage -INFO - The description is 6 lines
+2023-02-16 13:55:15,821 - HomePage -INFO - The description is 6 lines
+2023-02-16 13:55:16,230 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:56:58,984 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:57:00,164 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:57:00,185 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:57:00,199 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:57:00,213 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:57:00,229 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:57:00,249 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:57:01,618 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:58:19,521 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:58:20,902 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:58:20,923 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:58:20,939 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:58:20,956 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:58:20,978 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:58:20,992 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 13:58:25,319 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:01:27,365 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:01:28,127 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:01:28,145 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:01:28,158 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:01:28,174 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:01:28,189 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:01:28,216 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:01:32,832 - BasePage -ERROR - The navigation Items are not displayed
+2023-02-16 14:01:33,557 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:03:54,411 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:03:54,915 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:03:54,933 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:03:54,950 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:03:54,964 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:03:54,978 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:03:55,036 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:04:02,410 - BasePage -ERROR - The navigation Items are not displayed
+2023-02-16 14:04:03,410 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:04:24,564 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:04:25,920 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:04:25,944 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:04:25,959 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:04:25,976 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:04:25,991 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:04:26,004 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:04:32,681 - BasePage -ERROR - The navigation Items are not displayed
+2023-02-16 14:04:34,138 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:06:25,270 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:06:26,445 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:06:26,461 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:06:26,474 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:06:26,487 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:06:26,498 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:06:26,511 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:06:30,652 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,663 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,673 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,683 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,693 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,703 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,714 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,724 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,736 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,747 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,758 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,769 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,779 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,789 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,799 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,809 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,819 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:30,829 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:33,898 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:06:33,908 - BasePage -ERROR - The navigation Items are not displayed
+2023-02-16 14:06:34,545 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:07:27,862 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:07:29,277 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:07:29,297 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:07:29,309 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:07:29,322 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:07:29,334 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:07:29,346 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:07:32,700 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,712 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,724 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,734 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,746 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,757 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,773 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,783 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,794 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,805 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,816 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,826 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,837 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,847 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,858 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,868 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,879 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:32,890 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:35,964 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:07:35,974 - BasePage -ERROR - The navigation Items are not displayed
+2023-02-16 14:07:36,646 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:08:34,174 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:08:35,589 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:08:35,607 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:08:35,620 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:08:35,634 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:08:35,647 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:08:35,664 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:08:39,731 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,743 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,752 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,763 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,773 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,783 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,793 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,804 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,815 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,825 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,836 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,846 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,857 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,867 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,878 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,889 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,900 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:39,915 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:42,982 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:43,014 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:43,048 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:43,083 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:43,116 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:43,150 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:43,183 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:43,219 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:08:43,254 - BasePage -INFO - The navigation Items are displayed
+2023-02-16 14:09:21,064 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:10:27,234 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:10:27,606 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:10:27,625 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:10:27,638 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:10:27,651 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:10:27,665 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:10:27,684 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:10:28,071 - BasePage -ERROR - Changing to the home page or side nave
+2023-02-16 14:10:29,505 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:11:14,466 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:11:16,511 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:11:16,528 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:11:16,542 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:11:16,555 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:11:16,568 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:11:16,587 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:11:17,718 - BasePage -ERROR - Changing to the home page or side nave
+2023-02-16 14:11:18,379 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:12:19,510 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:12:20,645 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:12:20,662 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:12:20,677 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:12:20,691 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:12:20,704 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:12:20,721 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:12:21,071 - BasePage -ERROR - Changing to the home page or side nave
+2023-02-16 14:12:22,423 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:14:08,338 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:14:09,515 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:14:09,533 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:14:09,546 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:14:09,559 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:14:09,572 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:14:09,589 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:14:10,712 - BasePage -INFO - No change to the home page or side nave
+2023-02-16 14:14:10,733 - BasePage -INFO - No change to the home page or side nave
+2023-02-16 14:14:10,744 - BasePage -INFO - No change to the home page or side nave
+2023-02-16 14:14:10,754 - BasePage -INFO - No change to the home page or side nave
+2023-02-16 14:14:10,765 - BasePage -INFO - No change to the home page or side nave
+2023-02-16 14:14:10,776 - BasePage -INFO - No change to the home page or side nave
+2023-02-16 14:14:10,786 - BasePage -INFO - No change to the home page or side nave
+2023-02-16 14:14:10,797 - BasePage -INFO - No change to the home page or side nave
+2023-02-16 14:14:10,809 - BasePage -INFO - No change to the home page or side nave
+2023-02-16 14:14:16,808 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:15:39,684 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:15:40,130 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:15:40,148 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:15:40,167 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:15:40,182 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:15:40,196 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:15:40,215 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:15:42,960 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:17:34,701 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:17:35,154 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:17:35,171 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:17:35,182 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:17:35,195 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:17:35,207 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:17:35,224 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:17:37,821 - HomePage -INFO - Tiles contain a title
+2023-02-16 14:17:37,831 - HomePage -INFO - Tiles contain a title
+2023-02-16 14:17:37,841 - HomePage -INFO - Tiles contain a title
+2023-02-16 14:17:37,851 - HomePage -INFO - Tiles contain a title
+2023-02-16 14:17:37,863 - HomePage -INFO - Tiles contain a title
+2023-02-16 14:17:37,874 - HomePage -INFO - Tiles contain a title
+2023-02-16 14:17:38,300 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:19:37,664 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:19:38,932 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:19:38,949 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:19:38,962 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:19:38,975 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:19:38,988 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:19:39,005 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:19:40,165 - HomePage -ERROR - Actual and expected title do not match
+2023-02-16 14:19:41,506 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:23:50,589 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:23:51,740 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:23:51,762 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:23:51,781 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:23:51,799 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:23:51,828 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:23:51,848 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:23:53,030 - BasePage -INFO - The footer section size style and design are fixed
+2023-02-16 14:23:53,515 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:25:50,415 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:25:51,136 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:25:51,191 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:25:51,215 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:25:51,230 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:25:51,245 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:25:51,270 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:25:53,059 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:26:37,206 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:26:38,396 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:26:38,412 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:26:38,426 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:26:38,439 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:26:38,452 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:26:38,470 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 14:26:39,588 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 15:25:07,931 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 15:25:08,346 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 15:25:08,365 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 15:25:08,380 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 15:25:08,390 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 15:25:08,402 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 15:25:08,412 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 15:25:09,621 - HomePage -INFO - The promotion banner contains an image
+2023-02-16 15:25:16,843 - HomePage -INFO - Product Dropdown is enabled and visible
+2023-02-16 15:25:19,941 - HomePage -INFO - Category Dropdown is enabled and visible
+2023-02-16 15:25:20,090 - HomePage -INFO - Texts are matching
+2023-02-16 15:25:20,107 - HomePage -INFO - Texts are matching
+2023-02-16 15:25:27,995 - HomePage -INFO - pdf viewer is displayed
+2023-02-17 21:39:54,689 - HomePage -INFO - The promotion banner contains an image
+2023-02-17 21:39:55,105 - HomePage -INFO - The promotion banner contains an image
+2023-02-17 21:39:55,125 - HomePage -INFO - The promotion banner contains an image
+2023-02-17 21:39:55,140 - HomePage -INFO - The promotion banner contains an image
+2023-02-17 21:39:55,151 - HomePage -INFO - The promotion banner contains an image
+2023-02-17 21:39:55,163 - HomePage -INFO - The promotion banner contains an image
+2023-02-17 21:39:55,174 - HomePage -INFO - The promotion banner contains an image
+2023-02-17 21:39:56,316 - HomePage -INFO - The promotion banner contains an image
+2023-02-17 21:40:05,734 - HomePage -INFO - Product Dropdown is enabled and visible
+2023-02-17 21:40:08,834 - HomePage -INFO - Category Dropdown is enabled and visible
+2023-02-17 21:40:08,979 - HomePage -INFO - Texts are matching
+2023-02-17 21:40:08,998 - HomePage -INFO - Texts are matching
+2023-02-17 21:40:11,358 - HomePage -INFO - pdf viewer is displayed
+2023-02-17 21:41:10,953 - HomePage -INFO - The promotion banner contains an image
+2023-02-17 21:41:18,251 - HomePage -INFO - Product Dropdown is enabled and visible
+2023-02-17 21:41:21,357 - HomePage -INFO - Category Dropdown is enabled and visible
+2023-02-17 21:41:21,518 - HomePage -INFO - Texts are matching
+2023-02-17 21:41:21,535 - HomePage -INFO - Texts are matching
+2023-02-17 21:41:23,455 - HomePage -INFO - pdf viewer is displayed
+2023-02-17 21:41:40,514 - HomePage -INFO - The promotion banner contains an image
+2023-02-18 10:10:25,721 - HomePage -INFO - The promotion banner contains an image
+2023-02-18 10:10:32,963 - ProductListingPage -INFO - Texts are matching
+2023-02-18 10:10:45,184 - ProductListingPage -INFO - Texts are matching
+2023-02-21 09:35:59,877 - HomePage -INFO - The promotion banner contains an image
+2023-02-21 09:36:07,127 - ProductListingPage -INFO - Texts are matching
+2023-02-21 09:36:19,342 - ProductListingPage -INFO - Texts are matching
+2023-02-21 09:36:48,324 - SanityTestCases -INFO - Test WEB_68 has passed
+2023-02-21 09:38:54,075 - HomePage -INFO - The promotion banner contains an image
+2023-02-21 09:39:19,127 - SanityTestCases -INFO - Test WEB_68 has passed
+2023-02-21 15:30:22,082 - HomePage -INFO - The promotion banner contains an image
+2023-02-21 15:30:22,968 - HomePage -INFO - The promotion banner contains an image
+2023-02-21 15:31:32,495 - HomePage -INFO - The promotion banner contains an image
+2023-02-21 15:31:33,603 - HomePage -INFO - The promotion banner contains an image
+2023-02-21 15:31:58,112 - SanityTestCases -INFO - Test WEB_68 has passed
+2023-03-02 09:33:49,374 - HomePage -INFO - The promotion banner contains an image
+2023-03-02 09:33:54,818 - HomePage -INFO - The promotion banner contains an image
+2023-03-02 09:34:20,424 - SanityTestCases -INFO - Test WEB_68 has passed
+2023-03-02 09:41:41,124 - HomePage -INFO - The promotion banner contains an image
+2023-03-02 09:41:44,291 - HomePage -INFO - The promotion banner contains an image
+2023-03-02 09:42:09,856 - SanityTestCases -INFO - Test WEB_68 has passed
+2023-03-02 10:13:03,876 - ProductListingPage -INFO - The promotion banner contains an image
+2023-03-03 09:39:24,739 - BasePage -INFO - Security Page is verified
+2023-03-03 09:40:59,126 - BasePage -INFO - Security Page is verified
+2023-03-03 09:42:11,084 - BasePage -INFO - Security Page is verified
+2023-03-03 09:56:40,918 - BasePage -INFO - Security Page is verified
+2023-03-03 10:07:06,210 - BasePage -INFO - Privacy Page is verified
+2023-03-03 10:07:09,672 - BasePage -INFO - Security Page is verified
+2023-03-03 10:22:28,003 - BasePage -INFO - Privacy Page is verified
+2023-03-03 10:22:30,340 - BasePage -INFO - Security Page is verified
+2023-03-03 10:22:37,404 - ProductListingPage -ERROR - Related links do not contain Privacy and Security Link
+2023-03-03 10:23:31,880 - BasePage -INFO - Privacy Page is verified
+2023-03-03 10:23:34,245 - BasePage -INFO - Security Page is verified
+2023-03-03 10:23:43,786 - ProductListingPage -ERROR - Related links do not contain Privacy and Security Link
+2023-03-03 10:29:02,019 - BasePage -INFO - Privacy Page is verified
+2023-03-03 10:29:04,379 - BasePage -INFO - Security Page is verified
+2023-03-03 10:29:13,776 - ProductListingPage -INFO - Related links contain Privacy and Security Link
+2023-03-03 10:30:26,135 - BasePage -INFO - Privacy Page is verified
+2023-03-03 10:30:28,446 - BasePage -INFO - Security Page is verified
+2023-03-03 10:30:37,169 - ProductListingPage -INFO - Related links contain Privacy and Security Link
+2023-03-03 10:32:05,053 - BasePage -INFO - Privacy Page is verified
+2023-03-03 10:32:07,430 - BasePage -INFO - Security Page is verified
+2023-03-03 10:32:15,608 - ProductListingPage -INFO - Related links contain Privacy and Security Link
+2023-03-03 10:32:22,694 - ProductListingPage -INFO - Privacy & Security Page is verified
+2023-03-03 10:47:05,601 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,619 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,632 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,644 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,658 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,670 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,683 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,702 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,713 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,724 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,735 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,745 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,757 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,768 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,779 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:05,790 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:08,847 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:08,878 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:08,909 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:08,942 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:08,975 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:09,009 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:09,042 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:47:09,075 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 10:55:11,090 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 10:55:11,129 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 10:55:11,155 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 10:55:11,180 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 10:55:11,205 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 10:55:11,229 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 10:55:11,258 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 10:55:11,286 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 11:39:47,336 - ProductListingPage -INFO - The promotion banner contains an image
+2023-03-03 11:41:10,533 - ProductListingPage -INFO - The promotion banner contains an image
+2023-03-03 11:42:07,633 - ProductListingPage -INFO - The promotion banner contains an image
+2023-03-03 11:59:56,707 - ProductListingPage -ERROR - Title and description do not match for element
+2023-03-03 12:00:32,824 - ProductListingPage -ERROR - Title and description do not match for element0
+2023-03-03 12:03:35,518 - ProductListingPage -INFO - Title and description match for element
+2023-03-03 12:03:35,520 - ProductListingPage -INFO - Title and description match for element
+2023-03-03 12:03:35,521 - ProductListingPage -INFO - Title and description match for element
+2023-03-03 12:03:35,521 - ProductListingPage -ERROR - Title and description do not match for element3
+2023-03-03 12:04:15,994 - ProductListingPage -INFO - Title and description match for element
+2023-03-03 12:04:15,998 - ProductListingPage -INFO - Title and description match for element
+2023-03-03 12:04:15,999 - ProductListingPage -INFO - Title and description match for element
+2023-03-03 12:04:15,999 - ProductListingPage -INFO - Title and description match for element
+2023-03-03 12:04:16,000 - ProductListingPage -INFO - Title and description match for element
+2023-03-03 12:04:16,000 - ProductListingPage -INFO - Title and description match for element
+2023-03-03 13:20:24,773 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 13:20:24,813 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 13:20:24,839 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 13:20:24,865 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 13:20:24,891 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 13:20:24,921 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 13:20:24,948 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 13:20:24,975 - BasePage -INFO - No change to the home page or side nave
+2023-03-03 13:27:36,179 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,197 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,209 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,223 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,236 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,250 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,265 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,278 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,290 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,301 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,312 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,323 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,335 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,346 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,357 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,369 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:36,391 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:27:36,403 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:27:36,414 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:27:36,424 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:27:36,434 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:27:36,444 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:27:36,454 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:27:36,465 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:27:39,522 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:39,556 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:39,589 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:39,621 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:39,655 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:39,688 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:39,721 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:27:39,752 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:28:32,963 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:32,981 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:32,995 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,008 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,036 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,051 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,067 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,085 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,098 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,112 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,127 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,140 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,156 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,171 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,186 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,197 - BasePage -INFO - The navigation texts are not displayed
+2023-03-03 13:28:33,227 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:28:33,242 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:28:33,256 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:28:33,268 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:28:33,279 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:28:33,291 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:28:33,304 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:28:33,318 - BasePage -INFO - The navigation Images are displayed
+2023-03-03 13:28:36,375 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:28:36,408 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:28:36,445 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:28:36,479 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:28:36,513 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:28:36,549 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:28:36,581 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 13:28:36,616 - BasePage -INFO - The navigation Items are displayed
+2023-03-03 14:20:34,991 - BasePage -INFO - The collapse button is displayed
+2023-03-03 14:32:11,210 - HomePage -INFO - The description is 6 lines
+2023-03-03 14:32:11,230 - HomePage -INFO - The description is 6 lines
+2023-03-03 14:32:11,247 - HomePage -INFO - The description is 6 lines
+2023-03-03 14:32:11,263 - HomePage -INFO - The description is 6 lines
+2023-03-03 14:32:11,277 - HomePage -INFO - The description is 6 lines
+2023-03-03 14:32:11,293 - HomePage -INFO - The description is 6 lines
+2023-03-03 14:32:11,308 - HomePage -INFO - The description is 6 lines
+2023-03-03 14:32:11,322 - HomePage -INFO - The description is 6 lines
+2023-03-04 09:29:21,692 - BasePage -INFO - The footer is displayed on home page
+2023-03-04 09:29:28,052 - BasePage -INFO - The footer is displayed on legal page
+2023-03-04 09:29:34,430 - BasePage -INFO - The footer is displayed on products page
+2023-03-04 09:29:40,811 - BasePage -INFO - The footer is displayed on security page
+2023-03-04 09:29:47,147 - BasePage -INFO - The footer is displayed on compliance page
+2023-03-04 09:29:53,561 - BasePage -INFO - The footer is displayed on privacy page
+2023-03-04 09:30:00,616 - BasePage -INFO - The footer is displayed on accessibility page
+2023-03-04 09:42:13,737 - HomePage -INFO - Tile shadow has changed
+2023-03-08 12:40:57,162 - ProductPage -INFO - First tab is active
+2023-03-08 12:43:44,544 - ProductPage -INFO - First tab is active
+2023-03-08 12:48:07,147 - ProductPage -ERROR - Modal is not closed
+2023-03-08 12:49:00,673 - ProductPage -INFO - Modal is closed
+2023-03-08 12:51:55,888 - ProductPage -INFO - Modal is closed
+2023-03-08 13:09:27,999 - AuthoringPage -ERROR - Page is not unpublished
+2023-03-08 13:13:04,668 - AuthoringPage -ERROR - Page is not unpublished
+2023-03-08 15:04:09,993 - ProductPage -INFO - Modal is closed
+2023-03-08 15:21:19,095 - ProductPage -INFO - Banner is displayed
+2023-03-08 15:21:22,455 - ProductPage -INFO - Banner is displayed
+2023-03-09 10:37:16,005 - HomePage -INFO - Each link is displayed
+2023-03-09 10:37:16,022 - HomePage -INFO - Each link is displayed
+2023-03-09 10:40:44,319 - HomePage -INFO - Each link is displayed
+2023-03-09 10:40:44,333 - HomePage -INFO - Each link is displayed
+2023-03-09 10:40:48,374 - HomePage -INFO - Each link is not displayed
+2023-03-09 10:40:48,387 - HomePage -INFO - Each link is not displayed
+2023-03-09 12:04:14,756 - ProductPage -INFO - No Search Result is displayed
+2023-03-09 19:39:07,896 - HomePage -INFO - dropdowns are displayed
+2023-03-10 12:55:33,110 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 12:55:33,114 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 12:55:33,114 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 12:55:33,115 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 12:55:33,115 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 12:55:33,115 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 13:03:23,452 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 13:03:23,455 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 13:03:23,455 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 13:03:23,455 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 13:03:23,456 - ProductListingPage -INFO - Title and description match for element
+2023-03-10 13:03:23,456 - ProductListingPage -INFO - Title and description match for element
+2023-03-15 15:50:50,089 - HomePage -INFO - All Products button is displayed
+2023-03-15 15:55:10,756 - HomePage -INFO - This component contains a link/button for my product page
+2023-03-16 08:11:19,121 - ProductPage -ERROR - My Product label is displayed.
+2023-03-16 11:45:48,432 - UMSPage -ERROR - Select dropdown is not multiselect
+2023-03-16 11:47:24,437 - UMSPage -ERROR - Select dropdown is not multiselect
+2023-03-16 11:48:35,072 - UMSPage -ERROR - Select dropdown is not multiselect
+2023-03-16 11:49:32,693 - UMSPage -ERROR - Select dropdown is not multiselect
+2023-03-16 11:50:49,174 - UMSPage -ERROR - Select dropdown is not multiselect
+2023-03-18 11:08:41,137 - ProductPage -ERROR - There is no more than 2 products
+2023-03-18 11:34:43,873 - HomePage -INFO - Color of Titles is black
+2023-03-18 11:34:43,883 - HomePage -INFO - Color of Titles is black
+2023-03-18 11:34:43,890 - HomePage -INFO - Color of Titles is black
+2023-03-18 11:34:43,897 - HomePage -INFO - Color of Titles is black
+2023-03-18 11:34:43,904 - HomePage -INFO - Color of Titles is black
+2023-03-18 11:34:43,911 - HomePage -INFO - Color of Titles is black
+2023-03-18 11:34:43,918 - HomePage -INFO - Color of Titles is black
+2023-03-18 11:34:43,925 - HomePage -INFO - Color of Titles is black
+2023-03-18 19:13:29,172 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,191 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,204 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,217 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,228 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,240 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,254 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,270 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,281 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,291 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,302 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,313 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,324 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,334 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,345 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,357 - BasePage -INFO - The navigation texts are not displayed
+2023-03-18 19:13:29,378 - BasePage -INFO - The navigation Images are displayed
+2023-03-18 19:13:29,389 - BasePage -INFO - The navigation Images are displayed
+2023-03-18 19:13:29,400 - BasePage -INFO - The navigation Images are displayed
+2023-03-18 19:13:29,410 - BasePage -INFO - The navigation Images are displayed
+2023-03-18 19:13:29,420 - BasePage -INFO - The navigation Images are displayed
+2023-03-18 19:13:29,430 - BasePage -INFO - The navigation Images are displayed
+2023-03-18 19:13:29,440 - BasePage -INFO - The navigation Images are displayed
+2023-03-18 19:13:29,450 - BasePage -INFO - The navigation Images are displayed
+2023-03-18 19:13:32,509 - BasePage -INFO - The navigation Items are displayed
+2023-03-18 19:13:32,540 - BasePage -INFO - The navigation Items are displayed
+2023-03-18 19:13:32,572 - BasePage -INFO - The navigation Items are displayed
+2023-03-18 19:13:32,602 - BasePage -INFO - The navigation Items are displayed
+2023-03-18 19:13:32,633 - BasePage -INFO - The navigation Items are displayed
+2023-03-18 19:13:32,664 - BasePage -INFO - The navigation Items are displayed
+2023-03-18 19:13:32,695 - BasePage -INFO - The navigation Items are displayed
+2023-03-18 19:13:32,726 - BasePage -INFO - The navigation Items are displayed
+2023-03-24 13:26:56,008 - ProductPage -INFO - Footer icon is displayed
+2023-03-24 13:37:18,311 - ProductPage -INFO - Footer icon is displayed
+2023-03-25 13:51:44,507 - ProductListingPage -ERROR - Texts are not matching.
+2023-03-25 13:53:32,835 - ProductListingPage -INFO - Texts are matching
+2023-03-25 13:56:25,158 - ProductListingPage -INFO - Texts are matching
+2023-03-25 14:01:27,293 - ProductListingPage -INFO - Texts are matching
+2023-03-27 14:18:01,294 - ProductListingPage -INFO - Title and description match for element
+2023-03-27 14:18:01,298 - ProductListingPage -INFO - Title and description match for element
+2023-03-27 14:18:01,299 - ProductListingPage -INFO - Title and description match for element
+2023-03-27 14:18:01,299 - ProductListingPage -INFO - Title and description match for element
+2023-03-27 14:18:01,299 - ProductListingPage -INFO - Title and description match for element
+2023-03-27 14:18:01,300 - ProductListingPage -INFO - Title and description match for element
+2023-03-27 14:50:17,998 - ProductPage -INFO - First tab is active
