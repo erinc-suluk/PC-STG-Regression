@@ -2415,7 +2415,6 @@ public class UMSPage extends HelperFunctions {
 			checkBoxes2.get(0).click();
 		}
 		HelperFunctions.staticWait(3);
-		
 	}
 	public void setTotalUsers() throws Exception {
 		HelperFunctions.waitForPageToLoad(30);
@@ -2751,7 +2750,7 @@ public class UMSPage extends HelperFunctions {
 		WebDriverWait wait4 = new WebDriverWait(Driver.getDriver(), 10);
 		wait4.until(ExpectedConditions.visibilityOf(productsOptions.get(0)));
 		for(WebElement each: productsOptions) {
-			if(each.getText().contains("Change Navigator")) {
+			if(each.getText().contains("Connected Solutions")) {
 				each.click();
 				break;
 			}

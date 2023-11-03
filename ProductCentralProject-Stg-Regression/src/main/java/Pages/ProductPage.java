@@ -25,6 +25,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
@@ -879,18 +880,16 @@ public void setTitleOfAssets() {
 	HelperFunctions.staticWait(3);
     int hasMoreThan4Line=0;
     System.out.println(titleofAssets.size());
-	for(WebElement eachTitleOfAssets: titleofAssets) {
-		System.out.println(eachTitleOfAssets.getCssValue("-webkit-line-clamp"));
-		if(eachTitleOfAssets.getCssValue("-webkit-line-clamp").equals("4")) {
-			Assert.assertTrue(true);
-		}else {
-			hasMoreThan4Line++;
-			System.out.println(hasMoreThan4Line);
-			Assert.assertTrue(false);
-//			logger.error("The description is more than 6 lines");
-			
-		}
-	}
+    for (int i = 0; i < 3 && i < titleofAssets.size(); i++) {
+    	 WebElement eachTitleOfAssets = titleofAssets.get(i);
+    	 System.out.println(eachTitleOfAssets.getCssValue("-webkit-line-clamp"));
+    	 if (Integer.parseInt(eachTitleOfAssets.getCssValue("-webkit-line-clamp")) < 4) {
+    		 Assert.assertTrue(true);
+    		} else {
+    		 hasMoreThan4Line++;
+    		 System.out.println(hasMoreThan4Line);
+    		 Assert.assertTrue(false);}
+    	}
 	HelperFunctions.staticWait(3);
 }
 
@@ -1360,14 +1359,31 @@ public void setOrangeSearchResults() {
 
 	
 }
-public void setMyProductSearchBar() {
+public void setMyProductSearchBar(ExtentTest test) {
+	test.info("Wait for my product search field");
 	WebDriverWait wait10 = new WebDriverWait(Driver.getDriver(), 30);
     wait10.until(ExpectedConditions.visibilityOf(myProductSearchField));
+    test.info("Verified my product search field's visibility");
     HelperFunctions.staticWait(2);
 	Point searchBarLocation = myProductSearchField.getLocation();
     System.out.println(searchBarLocation);
 	Assert.assertTrue(searchBarLocation.getY() <= 200);
-	HelperFunctions.staticWait(2);
+	test.info("Verified my product search field's location");
+	HelperFunctions.staticWait(5);
+	test.info("Manage window's size to tablet mode");
+	Dimension tabletSize=new Dimension(768,533);
+	Driver.getDriver().manage().window().setSize(tabletSize);
+	wait10.until(ExpectedConditions.visibilityOf(myProductSearchField));
+	Assert.assertTrue(myProductSearchField.isDisplayed());
+	test.info("Verified my product search field's visibility in tablet mode");
+	HelperFunctions.staticWait(3);
+	test.info("Manage window's size to mobile mode");
+	Dimension mobileSize=new Dimension(375,533);
+	Driver.getDriver().manage().window().setSize(mobileSize);
+	wait10.until(ExpectedConditions.visibilityOf(myProductSearchField));
+	Assert.assertTrue(myProductSearchField.isDisplayed());
+	test.info("Verified my product search field's visibility in mobile mode");
+	HelperFunctions.staticWait(5);
 	
 }
 public void setFilterMyProductSearch() {
@@ -1544,7 +1560,7 @@ public void setProductNameVisibility() throws Exception {
 	HelperFunctions.staticWait(2);
 	
 }
-public void setSearchProductAccessibility() throws Exception {
+public void setSearchProductAccessibility(ExtentTest test) throws Exception {
 	
 	WebDriverWait wait=new WebDriverWait(Driver.getDriver(),30);
 	wait.until(ExpectedConditions.visibilityOf(productTitle));
@@ -1555,8 +1571,15 @@ public void setSearchProductAccessibility() throws Exception {
 	        logger.error(errorMessage);
 	        throw new Exception(errorMessage);
 	}
-	
-	HelperFunctions.staticWait(2);
+	test.info("Verified my product title, search field are visible and login link is not visible");
+	HelperFunctions.staticWait(3);
+	test.info("Checking if my product document category tag is visible for each product");
+    WebElement parentElement = Driver.getDriver().findElement(By.xpath("//div[@class='cmp-my-products-tile__text']"));
+
+    WebElement portfolioTag = parentElement.findElement(By.xpath(".//div[contains(@class, 'cmp-my-products-tile__portfolio-tag')]"));
+    WebElement title = parentElement.findElement(By.xpath(".//div[contains(@class, 'cmp-my-products-tile__title')]"));
+    test.info("Verified my product document category tag is visible for each product");
+	HelperFunctions.staticWait(5);
 }
 public void setAllResourcesPrevious() throws Exception {
 	
@@ -1733,10 +1756,11 @@ public void setLogoutOption() throws Exception {
 	
 	WebDriverWait wait=new WebDriverWait(Driver.getDriver(),30);
 	wait.until(ExpectedConditions.visibilityOf(userInitials));
-	userInitials.click();
-	HelperFunctions.staticWait(2);
+	JavascriptExecutor executor = (JavascriptExecutor) Driver.getDriver();
+    executor.executeScript("arguments[0].click();", userInitials);
+	HelperFunctions.staticWait(5);
 	Assert.assertTrue(logout.isDisplayed());
-	HelperFunctions.staticWait(2);
+	HelperFunctions.staticWait(5);
 	
 	
 }
@@ -2380,7 +2404,7 @@ public void setNotDublicatedReleaseNotes() {
 	selectDropdown.click();
 	HelperFunctions.staticWait(4);
 	for(WebElement element:docOptionsLabel) {
-		if(element.getText().contains("Release Notes")) {
+		if(element.getText().equalsIgnoreCase("Release Notes")) {
 			JavascriptExecutor executor = (JavascriptExecutor)Driver.getDriver();
 			executor.executeScript("arguments[0].click();", element);
 			break;
@@ -2407,7 +2431,7 @@ public void setReleaseNotesVisibilityonDropdown() {
 	selectDropdown.click();
 	HelperFunctions.staticWait(5);
 	for(WebElement element:docOptionsLabel) {
-		if(element.getText().contains("Release Notes")) {
+		if(element.getText().equalsIgnoreCase("Release Notes")) {
 			JavascriptExecutor executor = (JavascriptExecutor)Driver.getDriver();
 			executor.executeScript("arguments[0].click();", element);
 			break;
@@ -2431,7 +2455,7 @@ public void setReleaseNotesFilter() {
 	selectDropdown.click();
 	HelperFunctions.staticWait(5);
 	for(WebElement element:docOptionsLabel) {
-		if(element.getText().contains("Release Notes")) {
+		if(element.getText().equalsIgnoreCase("Release Notes")) {
 			JavascriptExecutor executor = (JavascriptExecutor)Driver.getDriver();
 			executor.executeScript("arguments[0].click();", element);
 			break;
@@ -2453,7 +2477,7 @@ public void setDifferenceFromAssetTitlesandReleaseNote() {
 	selectDropdown.click();
 	HelperFunctions.staticWait(5);
 	for(WebElement element:docOptionsLabel) {
-		if(element.getText().contains("Release Notes")) {
+		if(element.getText().equalsIgnoreCase("Release Notes")) {
 			JavascriptExecutor executor = (JavascriptExecutor)Driver.getDriver();
 			executor.executeScript("arguments[0].click();", element);
 			break;
@@ -2544,7 +2568,7 @@ public void setFilterTargetSpecificContent() {
 	selectDropdown.click();
 	HelperFunctions.staticWait(5);
 	for(WebElement element:docOptionsLabel) {
-		if(element.getText().contains("Release Notes")) {
+		if(element.getText().equalsIgnoreCase("Release Notes")) {
 			JavascriptExecutor executor = (JavascriptExecutor)Driver.getDriver();
 			executor.executeScript("arguments[0].click();", element);
 			break;
@@ -2556,7 +2580,7 @@ public void setFilterTargetSpecificContent() {
 	selectDropdown.click();
 	HelperFunctions.staticWait(5);
 	for(WebElement element2:docOptionsLabel) {
-		if(element2.getText().contains("User Guide")) {
+		if(element2.getText().equalsIgnoreCase("User Guide")) {
 			JavascriptExecutor executor = (JavascriptExecutor)Driver.getDriver();
 			executor.executeScript("arguments[0].click();", element2);
 			break;

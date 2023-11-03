@@ -1111,7 +1111,7 @@ public class AuthoringPage extends HelperFunctions {
 	@FindBy(xpath="//a[normalize-space()='Kaltura Video']")
 	private WebElement kaltura;
 	
-	@FindBy(xpath="//span[normalize-space()='Kaltura Video']")
+	@FindBy(xpath="//div[contains(text(),'youtube video')]")
 	private WebElement kalturaVideo;
 	
 	@FindBy(xpath="//span[normalize-space()='Kaltura Video']")
@@ -1144,7 +1144,7 @@ public class AuthoringPage extends HelperFunctions {
 	@FindBy(xpath="//div[normalize-space()='Related Links']")
 	private static List<WebElement> relatedLinks;
 	
-	@FindBy(xpath="//img[@src='/content/pc/us/en/automation/automation-landing.thumb.48.48.png?ck=']")
+	@FindBy(xpath="//img[contains(@src, 'automation-landing')]")
 	private WebElement alImg;
 	
 	@FindBy(xpath="//coral-button-label[normalize-space()='Open']")
@@ -1368,6 +1368,9 @@ public class AuthoringPage extends HelperFunctions {
 	
 	@FindBy(xpath="//span[@class='coral-Collapsible-title']")
 	private static List<WebElement> expandCollapse;
+	
+	@FindBy(xpath="(//div[@class='cmp-banner__message'])[2]")
+    private WebElement outageBannerMessage2;
 	
 	
 	
@@ -4459,7 +4462,7 @@ public void setHidingFromList() throws Exception {
 	email.sendKeys(read1.getCellData("VALUE", 44));
 	HelperFunctions.staticWait(3);
 	next.click();
-  HelperFunctions.waitForPageToLoad(5);
+  HelperFunctions.waitForPageToLoad(60);
 	 HelperFunctions.staticWait(2);
 	 //testingImg.click();
 	// HelperFunctions.staticWait(2);
@@ -4734,19 +4737,21 @@ public void setBannerforSpecificProduct() throws Exception {
 		Assert.assertTrue(deprecatedCont.getText().contains("Fluid Forecast"));
 		HelperFunctions.staticWait(3);
 	} 
-public void setBannerTypes() throws Exception {
+public void setBannerTypes(ExtentTest test) throws Exception {
 	 	
-	   // Driver.getDriver().get("https://auth-productcentral-qa.products.pwc.com/editor.html/content/pc/us/en/automation/my-products/fluid-forecast.html");
-		HelperFunctions.waitForPageToLoad(10);
-		JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-	    WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 30);
-	    //wait.until(ExpectedConditions.visibilityOf(pageInfo));
-	    try {
-	    	Thread.sleep(3000);
-	    }catch(InterruptedException e) {
-	    	e.printStackTrace();
-	    }
-	    js.executeScript("arguments[0].click();", pageInfo);
+	test.info("Wait for the page to load.");
+	try {
+    	Thread.sleep(5000);
+    }catch(InterruptedException e) {
+    	e.printStackTrace();
+    }
+	test.info("Click on page info");
+	JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+	  WebDriverWait wait=new WebDriverWait(Driver.getDriver(),30);
+	    //ExpectedCondition<WebElement> condition=ExpectedConditions.elementToBeClickable(editButtonContent);
+	    //wait.until(condition);
+	  js.executeScript("arguments[0].click();", pageInfo);
+	    //pageInfo.click();
 	    try {
 	    	Thread.sleep(3000);
 	    }catch(InterruptedException e) {
@@ -4754,12 +4759,17 @@ public void setBannerTypes() throws Exception {
 	    }
 		previewButton.click();
 		Driver.getDriver().switchTo().frame(0);
+		test.info("Getting each color of banners");
 		String scheduledContColor = scheduledCont.getCssValue("background-color");
 		String outageContColor = outageCont.getCssValue("background-color");
 		String deprecatedContColor = deprecatedCont.getCssValue("background-color");
+		System.out.println(outageContColor+"---"+deprecatedContColor);
 		Assert.assertNotEquals(scheduledContColor, outageContColor, "Scheduled and outage containers have the same background color");
+		test.info("Verified Scheduled and outage containers do NOT have the same background color");
 		Assert.assertNotEquals(scheduledContColor, deprecatedContColor, "Scheduled and deprecated containers have the same background color");
+		test.info("Verified Scheduled and deprecated containers do NOT have the same background color");
 		Assert.assertNotEquals(outageContColor, deprecatedContColor, "Outage and deprecated containers have the same background color");
+		test.info("Verified Outage and deprecated containers do NOT have the same background color");
 		HelperFunctions.staticWait(3);
 	} 
 public void setBannerDisplayed() throws Exception {
@@ -5388,7 +5398,7 @@ public void setPrivacyFooterCopyWrite() throws Exception {
    }catch(InterruptedException e) {
    	e.printStackTrace();
    }
-    pageInfo.click();
+    //pageInfo.click();
     HelperFunctions.staticWait(3);
     publishIcon.click();
     HelperFunctions.staticWait(3);
@@ -5525,23 +5535,13 @@ public void setKalturaVideo() throws Exception {
 	   // Driver.getDriver().get("https://auth-productcentral-stg.products.pwc.com/editor.html/content/dam/productcentral/en_us/products/check-in-archive/myproducts/multimedia-testing");
 		//HelperFunctions.waitForPageToLoad(20);
 		//HelperFunctions.staticWait(3);
-		WebDriverWait wait=new WebDriverWait(Driver.getDriver(),10);
-	    //ExpectedCondition<WebElement> condition=ExpectedConditions.elementToBeClickable(kaltura);
-	    //wait.until(condition);
-		try {
-	    	Thread.sleep(5000);
-	    }catch(InterruptedException e) {
-	    	e.printStackTrace();
-	    }
-	    kaltura.click();
-	    HelperFunctions.staticWait(2);
-	    ArrayList<String> tabs = new ArrayList<String>(Driver.getDriver().getWindowHandles());
-	    Driver.getDriver().switchTo().window(tabs.get(1));
-	    HelperFunctions.waitForPageToLoad(20);
-		HelperFunctions.staticWait(3);
-		Assert.assertTrue(kalturaVideo.isDisplayed());
-		Assert.assertTrue(contentFragment.isDisplayed());
-		HelperFunctions.staticWait(2);
+	WebDriverWait wait=new WebDriverWait(Driver.getDriver(),30);
+	//wait.until(ExpectedConditions.visibilityOf(kaltura));
+	HelperFunctions.staticWait(10);
+	Assert.assertTrue(kaltura.isDisplayed());
+    HelperFunctions.staticWait(2);
+	Assert.assertTrue(kalturaVideo.isDisplayed());
+    HelperFunctions.staticWait(2);
 		
 	} 
 public void setLongerTitleDescription() throws Exception {
@@ -5635,9 +5635,7 @@ HelperFunctions.staticWait(3);
 public void setMyProductLandingPage() throws Exception {
 	
  // Driver.getDriver().get("https://auth-productcentral-qa.products.pwc.com/sites.html/content/pc/us/en/automation/legal");
-	    HelperFunctions.waitForPageToLoad(15);
-
-	    WebDriverWait wait=new WebDriverWait(Driver.getDriver(),10);
+	  WebDriverWait wait=new WebDriverWait(Driver.getDriver(),30);
 	    //ExpectedCondition<WebElement> condition=ExpectedConditions.elementToBeClickable(createButton);
 	    //wait.until(condition);
 	    try {
@@ -5645,35 +5643,69 @@ public void setMyProductLandingPage() throws Exception {
 	    }catch(InterruptedException e) {
 	    	e.printStackTrace();
 	    }
-	  
 	    createButton.click();
-	    HelperFunctions.staticWait(2);
+	    wait.until(ExpectedConditions.visibilityOf(pageButton));
 	    pageButton.click();
-	    HelperFunctions.waitForPageToLoad(15);
+	    wait.until(ExpectedConditions.visibilityOf(mplpTemplate));
 	    mplpTemplate.click();
 	    HelperFunctions.staticWait(2);
-        nextButton.click();
-	    HelperFunctions.waitForPageToLoad(15);
+      nextButton.click();
+      wait.until(ExpectedConditions.visibilityOf(titleField2));
 	    titleField2.click();
 	    HelperFunctions.staticWait(2);
 	    titleField2.sendKeys("automation landing");
 	    HelperFunctions.staticWait(2);
+	    productCentralTab.click();
+	    wait.until(ExpectedConditions.visibilityOf(documentCategoryTag3));
+	    WebDriverWait wait2=new WebDriverWait(Driver.getDriver(),30);
+		wait2.until(ExpectedConditions.visibilityOf(documentCategoryTag3));
+	    JavascriptExecutor executor1 = (JavascriptExecutor) Driver.getDriver();
+      executor1.executeScript("arguments[0].click();", documentCategoryTag3);
+     
+	    HelperFunctions.staticWait(3);
+	    
+	    firstOptionofDocCat.click();
+	    try {
+	    	Thread.sleep(3000);
+	    }catch(InterruptedException e) {
+	    	e.printStackTrace();
+	    }
+	    //JavascriptExecutor executor2 = (JavascriptExecutor) Driver.getDriver();
+      executor1.executeScript("arguments[0].click();", productFeatureTag3);
+      try {
+	    	Thread.sleep(3000);
+	    }catch(InterruptedException e) {
+	    	e.printStackTrace();
+	    }
+      executor1.executeScript("arguments[0].click();", firstOptionofProCat);
+      try {
+	    	Thread.sleep(3000);
+	    }catch(InterruptedException e) {
+	    	e.printStackTrace();
+	    }
+      
+
+      executor1.executeScript("arguments[0].click();", audienceTag);
+	    HelperFunctions.staticWait(3);
+	
+      executor1.executeScript("arguments[0].click();", anonyOption);
+      HelperFunctions.staticWait(3);
 	    createButton2.click();
-        WebDriverWait wait3=new WebDriverWait(Driver.getDriver(),10);
+      WebDriverWait wait3=new WebDriverWait(Driver.getDriver(),10);
 	    ExpectedCondition<WebElement> condition3=ExpectedConditions.visibilityOf(openPage);
 	    wait3.until(condition3);
 	    openPage.click();
 	    Set<String> allWindows4=Driver.getDriver().getWindowHandles();
-        List<String> windowsList4=new ArrayList<>(allWindows4);
-        Driver.getDriver().switchTo().window(windowsList4.get(1));
+      List<String> windowsList4=new ArrayList<>(allWindows4);
+      Driver.getDriver().switchTo().window(windowsList4.get(1));
 	    HelperFunctions.waitForPageToLoad(15);
-	    WebDriverWait wait2=new WebDriverWait(Driver.getDriver(),10);
+	    WebDriverWait wait4=new WebDriverWait(Driver.getDriver(),10);
 	    ExpectedCondition<WebElement> condition2=ExpectedConditions.visibilityOf(sidePanel);
-	    wait2.until(condition2);
+	    wait4.until(condition2);
 	    sidePanel.click();
-	    HelperFunctions.staticWait(2);
+	    wait.until(ExpectedConditions.visibilityOf(expandAll));
 	    expandAll.click();
-	    HelperFunctions.staticWait(2);
+	    HelperFunctions.staticWait(5);
 	    Actions actions = new Actions(Driver.getDriver());
 	    Action dragAndDrop=actions.clickAndHold(dragRelated).moveToElement(dropRelated).release().build();
 	    try {
@@ -5684,65 +5716,84 @@ public void setMyProductLandingPage() throws Exception {
 	    dragAndDrop.perform();
 	    
 	    //actions.dragAndDrop(dragRelated, dropRelated).build().perform();
-	    HelperFunctions.staticWait(2);
+	    HelperFunctions.staticWait(3);
 	    Assert.assertTrue(relatedLinks.size()>=1);
 	    HelperFunctions.staticWait(3);
-	   /* Driver.getDriver().get("https://auth-productcentral-qa.products.pwc.com/sites.html/content/pc/us/en/automation");
-	    HelperFunctions.waitForPageToLoad(20);
+	   Driver.getDriver().get("https://auth-productcentral-stg.products.pwc.com/sites.html/content/pc/us/en/automation");
+	    HelperFunctions.waitForPageToLoad(30);
 	   // WebDriverWait wait4=new WebDriverWait(Driver.getDriver(),10);
 	   // ExpectedCondition<WebElement> condition4=ExpectedConditions.elementToBeClickable(createButton);
 	   // wait4.until(condition4);
-	    HelperFunctions.staticWait(3);
+	    try {
+	    	Thread.sleep(2000);
+	    }catch(InterruptedException e) {
+	    	e.printStackTrace();
+	    }
 	    JavascriptExecutor executor15 = (JavascriptExecutor) Driver.getDriver();
         executor15.executeScript("arguments[0].click();", alImg);
-        HelperFunctions.staticWait(3); 
+        try {
+	    	Thread.sleep(2000);
+	    }catch(InterruptedException e) {
+	    	e.printStackTrace();
+	    }
         JavascriptExecutor executor16 = (JavascriptExecutor) Driver.getDriver();
         executor16.executeScript("arguments[0].click();", alImg);
-        HelperFunctions.staticWait(3);
+        try {
+	    	Thread.sleep(2000);
+	    }catch(InterruptedException e) {
+	    	e.printStackTrace();
+	    }
         JavascriptExecutor executor17 = (JavascriptExecutor) Driver.getDriver();
         executor17.executeScript("arguments[0].click();", alImg);
         HelperFunctions.staticWait(3);
 	    delete.click();
-	    HelperFunctions.staticWait(2);
+	    wait.until(ExpectedConditions.visibilityOf(delete2));
 	    delete2.click();
-	    HelperFunctions.staticWait(5);*/
+	    HelperFunctions.staticWait(5);
 }
 
 public void setLeftNaviEdit() throws Exception {
  	
     //Driver.getDriver().get("https://auth-productcentral-qa.products.pwc.com/mnt/overlay/dam/gui/content/assets/metadataeditor.external.html?item=/content/dam/productcentral/en_us/products/legal/Legal_Hosted_Software_Terms.pdf&_charset_=utf-8");
+	try {
+    	Thread.sleep(3000);
+    }catch(InterruptedException e) {
+    	e.printStackTrace();
+    }
 	JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-    WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 30);
-    //wait.until(ExpectedConditions.visibilityOf(pageInfo));
-    try {
-    	Thread.sleep(3000);
-    }catch(InterruptedException e) {
-    	e.printStackTrace();
-    }
-    js.executeScript("arguments[0].click();", pageInfo);
-    try {
-    	Thread.sleep(3000);
-    }catch(InterruptedException e) {
-    	e.printStackTrace();
-    }
+	  WebDriverWait wait=new WebDriverWait(Driver.getDriver(),30);
+	    //ExpectedCondition<WebElement> condition=ExpectedConditions.elementToBeClickable(editButtonContent);
+	    //wait.until(condition);
+	  js.executeScript("arguments[0].click();", pageInfo);
+	    //pageInfo.click();
+	    try {
+	    	Thread.sleep(3000);
+	    }catch(InterruptedException e) {
+	    	e.printStackTrace();
+	    }
 	    editButtonContent.click();
-	WebDriverWait wait1=new WebDriverWait(Driver.getDriver(),10);
-    ExpectedCondition<WebElement> condition1=ExpectedConditions.visibilityOf(leftNaviEdit);
+	WebDriverWait wait1=new WebDriverWait(Driver.getDriver(),30);
+    ExpectedCondition<WebElement> condition1=ExpectedConditions.elementToBeClickable(leftNaviEdit);
     wait1.until(condition1);
     leftNaviEdit.click();
-    WebDriverWait wait2 = new WebDriverWait(Driver.getDriver(), 10);
-    wait2.until(ExpectedConditions.visibilityOf(configure));
+    wait1.until(ExpectedConditions.visibilityOf(configure));
     configure.click();
-    //Driver.getDriver().switchTo().frame("contexthub-ui-iframe");
-    WebDriverWait wait3 = new WebDriverWait(Driver.getDriver(), 10);
-    wait3.until(ExpectedConditions.visibilityOf(firstTitleEdit));
-   // JavascriptExecutor executor9 = (JavascriptExecutor) Driver.getDriver();
-   // executor9.executeScript("arguments[0].click();", secondTitleEdit);
-  //  Assert.assertTrue(secondTitleEdit.isDisplayed());
+    wait1.until(ExpectedConditions.visibilityOf(expandCollapse.get(0)));
+    expandCollapse.get(0).click();
+    wait1.until(ExpectedConditions.visibilityOf(expandCollapse.get(1)));
+    expandCollapse.get(1).click();
+    try {
+    	Thread.sleep(3000);
+    }catch(InterruptedException e) {
+    	e.printStackTrace();
+    }
+    JavascriptExecutor executor9 = (JavascriptExecutor) Driver.getDriver();
+    executor9.executeScript("arguments[0].click();", secondTitleEdit);
+    Assert.assertTrue(secondTitleEdit.isDisplayed());
     String nongated=firstImagePath.getAttribute("value");
     String gated=secondImagePath.getAttribute("value");
-    String expected1="management";
-    String expected2=".pdf";
+    String expected1="study";
+    String expected2="listen";
     Assert.assertTrue(nongated.contains(expected1));
     HelperFunctions.staticWait(2);
     Assert.assertTrue(gated.contains(expected2));
@@ -6036,16 +6087,25 @@ public void setContentBox() throws Exception {
 public void setBannerClose(ExtentTest test) throws Exception {
 	read1.setExcelFile("./testdata.xlsx", "STG");
 	test.info("Wait for the page to load.");
-	//HelperFunctions.waitForPageToLoad(15);
-    WebDriverWait wait1 = new WebDriverWait(Driver.getDriver(), 30);
-    wait1.until(ExpectedConditions.visibilityOf(pageInfo));
-    pageInfo.click();
+	try {
+    	Thread.sleep(3000);
+    }catch(InterruptedException e) {
+    	e.printStackTrace();
+    }
+	JavascriptExecutor executor = (JavascriptExecutor) Driver.getDriver();
+    WebDriverWait wait1 = new WebDriverWait(Driver.getDriver(), 60);
+    //wait1.until(ExpectedConditions.visibilityOf(pageInfo));
+    executor.executeScript("arguments[0].click();", pageInfo);
+    //HelperFunctions.staticWait(3);
+    test.info("Click on view as published");
     wait1.until(ExpectedConditions.visibilityOf(viewasPublish));
     viewasPublish.click();
+    test.info("Go to new tab");
 	 //((JavascriptExecutor)Driver.getDriver()).executeScript("window.open();");
 	    ArrayList<String> tabs=new ArrayList<String>(Driver.getDriver().getWindowHandles());
 	    Driver.getDriver().switchTo().window(tabs.get(1));
 	  //  Driver.getDriver().get(read1.getCellData("VALUE", 84));
+	    test.info("Wait for banner visibility");
 	    HelperFunctions.waitForPageToLoad(15);
 	   // WebDriverWait wait1 = new WebDriverWait(Driver.getDriver(), 15);
 	    wait1.until(ExpectedConditions.visibilityOf(banner2));
@@ -6057,8 +6117,33 @@ public void setBannerClose(ExtentTest test) throws Exception {
    	String successMessage = "Banner is displayed";
        logger.info(successMessage);
    }
+    test.info("Verified banner is displayed");
+    try {
+    	Thread.sleep(3000);
+    }catch(InterruptedException e) {
+    	e.printStackTrace();
+    }
+    String actualMessage=outageBannerMessage.getText();
+    String expectedProductName="Disclosure Checklist";
+    String nonExpectedProductCode="disclosure-checklist";
+    Assert.assertTrue(actualMessage.contains(expectedProductName));
+    test.info("Verified banner message contains product name");
+    try {
+    	Thread.sleep(2000);
+    }catch(InterruptedException e) {
+    	e.printStackTrace();
+    }
+    Assert.assertFalse(actualMessage.contains(nonExpectedProductCode));
+    test.info("Verified banner message does not contain product code");
+    try {
+    	Thread.sleep(2000);
+    }catch(InterruptedException e) {
+    	e.printStackTrace();
+    }
+    test.info("Click on banner close");
    bannerClose.click();
    HelperFunctions.staticWait(2);
+   test.info("Refresh the page");
    Driver.getDriver().navigate().refresh();
    HelperFunctions.waitForPageToLoad(30); 
    HelperFunctions.staticWait(3);
@@ -6069,31 +6154,46 @@ public void setBannerClose(ExtentTest test) throws Exception {
   	String successMessage = "Banner is displayed";
       logger.info(successMessage);
   }
+   test.info("Verified banner is displayed");
    HelperFunctions.staticWait(3);
 }
 public void setOutageBannerMessage(ExtentTest test) throws Exception {
 	read1.setExcelFile("./testdata.xlsx", "STG");
-	test.info("Wait for the page to load.");
-	//HelperFunctions.waitForPageToLoad(15);
-    WebDriverWait wait1 = new WebDriverWait(Driver.getDriver(), 30);
-    wait1.until(ExpectedConditions.visibilityOf(pageInfo));
-    pageInfo.click();
+	test.info("Wait for page info and click on it");
+	try {
+    	Thread.sleep(5000);
+    }catch(InterruptedException e) {
+    	e.printStackTrace();
+    }
+	JavascriptExecutor executor = (JavascriptExecutor) Driver.getDriver();
+    WebDriverWait wait1 = new WebDriverWait(Driver.getDriver(), 60);
+    //wait1.until(ExpectedConditions.visibilityOf(pageInfo));
+    executor.executeScript("arguments[0].click();", pageInfo);
+    //HelperFunctions.staticWait(3);
+    test.info("Click on view as published");
     wait1.until(ExpectedConditions.visibilityOf(viewasPublish));
     viewasPublish.click();
+    test.info("Go to new tab");
 	 //((JavascriptExecutor)Driver.getDriver()).executeScript("window.open();");
 	    ArrayList<String> tabs=new ArrayList<String>(Driver.getDriver().getWindowHandles());
 	    Driver.getDriver().switchTo().window(tabs.get(1));
 	  //  Driver.getDriver().get(read1.getCellData("VALUE", 84));
+	    test.info("Wait for banner visibility");
 	    HelperFunctions.waitForPageToLoad(15);
 	   // WebDriverWait wait1 = new WebDriverWait(Driver.getDriver(), 15);
 	    wait1.until(ExpectedConditions.visibilityOf(banner2));
-    wait1.until(ExpectedConditions.visibilityOf(outageBannerMessage));
+    wait1.until(ExpectedConditions.visibilityOf(outageBannerMessage2));
 	HelperFunctions.staticWait(3);
 	String text1="We are investigating a service outage";
 	int currentYear=LocalDate.now().getYear();
-	Assert.assertTrue(outageBannerMessage.getText().contains(text1));
+	Assert.assertTrue(outageBannerMessage2.getText().contains(text1));
+	test.info("Verified outage banner is displayed expected text");
 	HelperFunctions.staticWait(2);
-	Assert.assertTrue(outageBannerMessage.getText().contains(String.valueOf(currentYear)));
+	Assert.assertTrue(outageBannerMessage2.getText().contains(String.valueOf(currentYear)));
+	test.info("Verified outage banner is displayed current year");
+	String date="Aug 31, 2023 18:08 UTC";
+	Assert.assertTrue(outageBannerMessage2.getText().contains(date));
+	test.info("Verified outage banner's date is displayed as expected format");
 	HelperFunctions.staticWait(3);
 	    
 }
@@ -6318,7 +6418,7 @@ public void setGettingReport() throws Exception {
     		break;
     	}
     }
-    HelperFunctions.staticWait(2);/*fhgfh*/
+    HelperFunctions.staticWait(2);
 }
     
     

@@ -2052,8 +2052,8 @@ public class RegressionTestCases extends BasePage {
 	    ExtentTest test = extent.createTest(testName);
 
 	    try {
-	        Driver.getDriver().get(read1.getCellData("VALUE", 15));
-	        lpo.setLogin2();
+	        Driver.getDriver().get(read1.getCellData("VALUE", 17));
+	        lpo.setLogin4();
 	        ap.setPrivacyHubWorkflow();
 	        test.pass("Test passed");
 	    } catch (Exception e) {
@@ -2533,13 +2533,14 @@ public class RegressionTestCases extends BasePage {
 	}
 	@Test
 	public void WEB_130() throws Exception{
-		String testName = "Verify banner designs are predetermined based on type of outage";
+		String testName = "Verify banner designs are predetermined based on type of outage"
+				+"/ Verify that the type of outage or degradation is displayed on the pages as per the below severity.";
 	    ExtentTest test = extent.createTest(testName);
 
 	    try {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 66));
 	        lpo.setLogin4();
-	        ap.setBannerTypes();
+	        ap.setBannerTypes(test);
 	        test.pass("Test passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
@@ -2656,7 +2657,8 @@ public class RegressionTestCases extends BasePage {
 	@Test
 	public void WEB_136() throws Exception{
 		String testName = "Verify If the user closes the banner then this action is retained during the session, and upon"
-				+ " return visit if the outage still persists then the banner will be displayed again";
+				+ " return visit if the outage still persists then the banner will be displayed again"
+				+"/ Verify that AEM is receiving the below details from UMS for each outage or degradation notifications.";
 	    ExtentTest test = extent.createTest(testName);
 
 	    try {
@@ -2699,13 +2701,14 @@ public class RegressionTestCases extends BasePage {
 	
 	@Test
 	public void WEB_138() throws Exception{
-		String testName = "verify the search bar is at the top of the My Products page template";
+		String testName = "verify the search bar is at the top of the My Products page template"
+				+"/ Verify that search box is available on all devices(desktop, tablet, mobile)";
 	    ExtentTest test = extent.createTest(testName);
 
 	    try {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 15));
 	        lpo.setLogin2();
-	        pp.setMyProductSearchBar(); 
+	        pp.setMyProductSearchBar(test); 
 	        test.pass("Test passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
@@ -2871,13 +2874,14 @@ public class RegressionTestCases extends BasePage {
 	}
 	@Test
 	public void WEB_147() throws Exception{
-		String testName = "Verify that the My Products search is only accessible on a My Products page, which requires login and permission.";
+		String testName = "Verify that the My Products search is only accessible on a My Products page, which requires login and permission."
+				+"/ Verify that user is able to see document category label for each tile under 'Latest' and 'For You' sections on MyProducts pages";
 	    ExtentTest test = extent.createTest(testName);
 
 	    try {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 15));
 	        lpo.setLogin2();
-	        pp.setSearchProductAccessibility();
+	        pp.setSearchProductAccessibility(test);
 	        test.pass("Test passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
@@ -5746,13 +5750,16 @@ public class RegressionTestCases extends BasePage {
 	}
 	@Test
 	public void WEB_298() throws Exception{
-		String testName = "Verify that for outage banner(red) new statement is";
+		String testName = "Verify that for outage banner(red) new statement is"
+				+"/ Verify user is able to see automated banner on product page with text and outage start time"
+				+"/ Verify that the automated outage banner text is displayed as per below"+
+				"/ Verify that the 'begin-UTC' date & time of the outage or degradation is displayed in the banner.";
         ExtentTest test = extent.createTest(testName);
 
         try {
             Driver.getDriver().get(read1.getCellData("VALUE", 62));
             lpo.setLogin4();
-    	    pp.setOutageBannerMessage(test);
+    	    ap.setOutageBannerMessage(test);
             test.pass("Test passed");
         } catch (Exception e) {
             String screenshotPath = takeScreenshot(testName);
