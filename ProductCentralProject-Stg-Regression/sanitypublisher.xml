@@ -9,10 +9,10 @@
     <classes>
       <class name="com.pwc.productcentral.RegressionTestCases">
        <methods>
-      <exclude name="WEB_1"/>
+     <exclude name="WEB_1"/>
        <include name="WEB_2"/>
        <include name="WEB_3"/>
-       <include name="WEB_4"/>
+       <exclude name="WEB_4"/>
        <exclude name="WEB_5"/>
        <exclude name="WEB_6"/>
        <exclude name="WEB_7"/>
@@ -101,7 +101,7 @@
        <include name="WEB_90"/>
        <include name="WEB_91"/>
        <include name="WEB_92"/>
-       <include name="WEB_93"/>
+       <exclude name="WEB_93"/>
        <exclude name="WEB_94"/>
        <include name="WEB_95"/>
        <exclude name="WEB_96"/>
@@ -160,7 +160,7 @@
        <exclude name="WEB_149"/>
        <exclude name="WEB_150"/>
        <include name="WEB_151"/>
-       <exclude name="WEB_152"/>
+       <include name="WEB_152"/>
        <include name="WEB_153"/>
        <include name="WEB_154"/>
        <include name="WEB_155"/>
@@ -251,11 +251,11 @@
        <include name="WEB_240"/>
        <include name="WEB_241"/>
        <include name="WEB_242"/>
-       <exclude name="WEB_243"/>
+       <include name="WEB_243"/>
        <include name="WEB_244"/>
        <exclude name="WEB_245"/>
        <exclude name="WEB_246"/>
-       <exclude name="WEB_247"/>
+       <include name="WEB_247"/>
        <include name="WEB_248"/>
        <include name="WEB_249"/>
        <exclude name="WEB_250"/>
@@ -322,8 +322,7 @@
        <include name="WEB_311"/>
        <include name="WEB_312"/>
        <include name="WEB_313"/>
-       <include name="WEB_314"/>
-       <include name="WEB_315"/>
+     
        
        
       </methods>

@@ -1,5 +1,6 @@
 package Pages;
 
+import java.io.File;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -397,6 +398,27 @@ public class UMSPage extends HelperFunctions {
 	
 	@FindBy(xpath="//div[normalize-space()='Locked Automation']")
 	private WebElement lockedAutomation;
+	
+	@FindBy(xpath="//div[normalize-space()='productautomation1']")
+	private WebElement productAutomation1;
+	
+	@FindBy(xpath="//div[normalize-space()='productautomation2']")
+	private WebElement productAutomation2;
+	
+	@FindBy(xpath="//div[normalize-space()='sameid001']")
+	private WebElement sameid;
+	
+	@FindBy(xpath="(//span[contains(text(),'Manage Users')])[2]")
+	private WebElement manageUsersChangeNavi;
+	
+	@FindBy(xpath="//span[contains(text(),'Add User')]")
+	private WebElement addUserSuperAdmin;
+	
+	@FindBy(xpath="//mat-select[@id='products']")
+	private WebElement selectProduct3;
+	
+	@FindBy(xpath="(//mat-pseudo-checkbox[starts-with(@class, 'mat-pseudo-checkbox')])[2]")
+	private WebElement checkBox3;
 	
 	static Logger logger=Logger.getLogger("UMSPage");
 	
@@ -2950,6 +2972,276 @@ public class UMSPage extends HelperFunctions {
 		Assert.assertTrue(on.isDisplayed());
 		HelperFunctions.staticWait(3);
 	}
+	public void setProductIDSameValue(ExtentTest test) throws Exception {
+		test.info("Wait for the page to load.");
+		HelperFunctions.waitForPageToLoad(30);
+		HelperFunctions.staticWait(3);
+		read1.setExcelFile("./testdata.xlsx", "QA");
+		email.sendKeys(read1.getCellData("VALUE", 44));
+		next.click();
+		HelperFunctions.waitForPageToLoad(20);
+		WebDriverWait wait=new WebDriverWait(Driver.getDriver(),30);
+		wait.until(ExpectedConditions.visibilityOf(addUser));
+		addUser.click();
+		HelperFunctions.staticWait(3);
+		Driver.getDriver().get(read1.getCellData("VALUE", 77));
+		//Driver.getDriver().get("https://ums-productcentral-qa.pwc.com/ums");
+		HelperFunctions.waitForPageToLoad(60);
+	    //WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
+	    wait.until(ExpectedConditions.visibilityOf(searchCompany));
+	    HelperFunctions.staticWait(3);
+		productsTab.click();
+		HelperFunctions.staticWait(15);
+		wait.until(ExpectedConditions.visibilityOf(searchCompany));
+		String auto="productautomation1";
+		searchCompany.sendKeys(auto);
+		HelperFunctions.staticWait(2);
+		searchButton.click();
+		wait.until(ExpectedConditions.visibilityOf(productAutomation1));
+		productAutomation1.click();
+		HelperFunctions.staticWait(5);
+		wait.until(ExpectedConditions.visibilityOf(sameid));
+		Assert.assertTrue(sameid.isDisplayed());
+		HelperFunctions.staticWait(2);
+		searchCompany.click();
+		HelperFunctions.staticWait(2);
+		searchCompany.clear();
+		HelperFunctions.staticWait(2);
+		String auto2="productautomation2";
+		searchCompany.sendKeys(auto2);
+		HelperFunctions.staticWait(2);
+		searchButton.click();
+		wait.until(ExpectedConditions.visibilityOf(productAutomation2));
+		productAutomation2.click();
+		HelperFunctions.staticWait(5);
+		editProduct.click();
+		wait.until(ExpectedConditions.visibilityOf(SCproduct));
+		String sameValue="sameid001";
+		HelperFunctions.staticWait(2);
+		SCproduct.click();
+		HelperFunctions.staticWait(2);
+		SCproduct.clear();
+		HelperFunctions.staticWait(2);
+		SCproduct.sendKeys(sameValue);
+		HelperFunctions.staticWait(2);
+		saveCompany.click();	
+		HelperFunctions.staticWait(3);
+		
+	}
+	public void setCreateUserWithoutFirstandLastName(ExtentTest test) throws Exception {
+		test.info("Wait for the page to load.");
+		HelperFunctions.waitForPageToLoad(90);
+		HelperFunctions.staticWait(3);
+		read1.setExcelFile("./testdata.xlsx", "QA");
+		email.sendKeys(read1.getCellData("VALUE", 44));
+		HelperFunctions.staticWait(2);
+		next.click();
+		WebDriverWait wait=new WebDriverWait(Driver.getDriver(),90);
+		wait.until(ExpectedConditions.visibilityOf(addUser));
+		test.info("Click on add user");
+		addUser.click();
+		wait.until(ExpectedConditions.visibilityOf(emailAddress));
+		HelperFunctions.staticWait(2);
+		Faker faker=new Faker();
+		test.info("Click on email field");
+		emailAddress.click();
+		HelperFunctions.staticWait(2);
+		test.info("Send email to email field");
+		String mockMail=faker.internet().emailAddress();
+		emailAddress.sendKeys(mockMail);
+		HelperFunctions.staticWait(2);
+		test.info("Click on select user dropdown");
+		selectUserLevel.click();
+		WebDriverWait wait3 = new WebDriverWait(Driver.getDriver(), 10);
+		wait3.until(ExpectedConditions.visibilityOf(userLabel));
+		//HelperFunctions.staticWait(2);
+		test.info("Click on user");
+		userLabel.click();
+		HelperFunctions.staticWait(3);
+		test.info("Click on select product dropdown");
+		selectProducts.click();
+		//HelperFunctions.staticWait(3);
+		WebDriverWait wait4 = new WebDriverWait(Driver.getDriver(), 10);
+		wait4.until(ExpectedConditions.visibilityOf(checkBoxes2.get(0)));
+		test.info("Click on product checkbox");
+		checkBoxes2.get(0).click();
+		HelperFunctions.staticWait(2);
+		Actions actions=new Actions(Driver.getDriver());
+		actions.moveToElement(selectUserLevel).click().perform();
+		//selectProducts.click();
+		HelperFunctions.staticWait(1);
+		test.info("Click on save button");
+		saveButton.click();
+       // JavascriptExecutor executor = (JavascriptExecutor) Driver.getDriver();
+         //  executor.executeScript("arguments[0].click();", saveButton);
+           HelperFunctions.staticWait(10);
+           Driver.getDriver().get(read1.getCellData("VALUE", 77));
+   		//Driver.getDriver().get("https://ums-productcentral-qa.pwc.com/ums");
+   		HelperFunctions.waitForPageToLoad(60);
+   	    //WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
+   	    wait.until(ExpectedConditions.visibilityOf(searchCompany));
+   	    searchCompany.sendKeys("Company Automation");
+   	    HelperFunctions.staticWait(2);
+   	    searchButton.click();
+		wait.until(ExpectedConditions.visibilityOf(companyAutomation));
+		companyAutomation.click();
+		wait.until(ExpectedConditions.visibilityOf(addUserSuperAdmin));
+		addUserSuperAdmin.click();
+		HelperFunctions.staticWait(2);
+		Faker faker2=new Faker();
+		test.info("Click on email field");
+		emailAddress.click();
+		HelperFunctions.staticWait(2);
+		test.info("Send email to email field");
+		String mockMail2=faker2.internet().emailAddress();
+		emailAddress.sendKeys(mockMail2);
+		HelperFunctions.staticWait(2);
+		test.info("Click on select user dropdown");
+		selectUserLevel.click();
+		//WebDriverWait wait3 = new WebDriverWait(Driver.getDriver(), 10);
+		wait3.until(ExpectedConditions.visibilityOf(userLabel));
+		//HelperFunctions.staticWait(2);
+		test.info("Click on user");
+		userLabel.click();
+		HelperFunctions.staticWait(3);
+		test.info("Click on select product dropdown");
+		selectProduct3.click();
+		//HelperFunctions.staticWait(3);
+		//WebDriverWait wait4 = new WebDriverWait(Driver.getDriver(), 10);
+		wait4.until(ExpectedConditions.visibilityOf(checkBox3));
+		test.info("Click on product checkbox");
+		checkBox3.click();
+		HelperFunctions.staticWait(2);
+		Actions actions2=new Actions(Driver.getDriver());
+		actions2.moveToElement(selectUserLevel).click().perform();
+		//selectProducts.click();
+		HelperFunctions.staticWait(1);
+		test.info("Click on save button");
+		saveButton.click();
+       // JavascriptExecutor executor = (JavascriptExecutor) Driver.getDriver();
+         //  executor.executeScript("arguments[0].click();", saveButton);
+           HelperFunctions.staticWait(10);
+           searchCompany.click();
+           HelperFunctions.staticWait(2);
+           searchCompany.clear();
+           HelperFunctions.staticWait(2);
+           searchCompany.sendKeys("Company Automation");
+      	    HelperFunctions.staticWait(2);
+      	    searchButton.click();
+   		wait.until(ExpectedConditions.visibilityOf(companyAutomation));
+   		companyAutomation.click();
+		wait.until(ExpectedConditions.visibilityOf(manageUsersChangeNavi));
+		manageUsersChangeNavi.click();
+	       WebDriverWait wait5 = new WebDriverWait(Driver.getDriver(), 10);
+	   		wait5.until(ExpectedConditions.visibilityOf(searchUsers));
+	   		test.info("Click on search field");
+	   	    searchUsers.click();
+	   	    HelperFunctions.staticWait(2);
+	   	 test.info("Send email");
+		    searchUsers.sendKeys(mockMail);
+		    WebDriverWait wait6 = new WebDriverWait(Driver.getDriver(), 10);
+			wait6.until(ExpectedConditions.visibilityOf(emailForVerification));
+			HelperFunctions.staticWait(3);
+	    test.info("Click on delete user");
+           closeIconforDeleteUsers.click();
+   	    HelperFunctions.staticWait(1);
+   	    if(deleteUser.isDisplayed()) {
+   	    	 deleteUser.click();
+   	    }
+   	    HelperFunctions.staticWait(5);
+   	 test.info("Click on search field");
+	    searchUsers.click();
+	    HelperFunctions.staticWait(2);
+	    searchUsers.clear();
+	    HelperFunctions.staticWait(2);
+	 test.info("Send email");
+	    searchUsers.sendKeys(mockMail2);
+	    //WebDriverWait wait6 = new WebDriverWait(Driver.getDriver(), 10);
+		wait6.until(ExpectedConditions.visibilityOf(emailForVerification));
+		HelperFunctions.staticWait(3);
+
+ test.info("Click on delete user");
+    closeIconforDeleteUsers.click();
+    HelperFunctions.staticWait(1);
+    if(deleteUser.isDisplayed()) {
+    	 deleteUser.click();
+    }
+    HelperFunctions.staticWait(5);
+   	    
+   	   
+	}
+	public void setDownloadCompanyReport(ExtentTest test) throws Exception {
+		test.info("Wait for the page to load.");
+		HelperFunctions.waitForPageToLoad(90);
+		HelperFunctions.staticWait(3);
+		read1.setExcelFile("./testdata.xlsx", "QA");
+		email.sendKeys(read1.getCellData("VALUE", 44));
+		HelperFunctions.staticWait(2);
+		next.click();
+		WebDriverWait wait=new WebDriverWait(Driver.getDriver(),90);
+		wait.until(ExpectedConditions.visibilityOf(addUser));
+		WebElement element=null;
+		HelperFunctions.staticWait(2);
+		try {
+			element=downloadLink;
+		}catch(org.openqa.selenium.NoSuchElementException e) {
+			
+		}
+		test.info("Verified there is no download company report link on UMS page");
+		HelperFunctions.staticWait(2);
+		addUser.click();
+		HelperFunctions.staticWait(3);
+		Driver.getDriver().get(read1.getCellData("VALUE", 77));
+		//Driver.getDriver().get("https://ums-productcentral-qa.pwc.com/ums");
+		HelperFunctions.waitForPageToLoad(30);
+		test.info("Wait for search company visibility");
+	    wait.until(ExpectedConditions.visibilityOf(searchCompany));
+	    Assert.assertTrue(downloadLink.isDisplayed());
+	    test.info("Verified download link is displayed");
+		JavascriptExecutor executor2 = (JavascriptExecutor) Driver.getDriver();
+        executor2.executeScript("arguments[0].click();", downloadLink);
+        test.info("Clicked on download link");
+		 HelperFunctions.staticWait(20);
+		 /*String directoryPath = "C:\\Users\\GLBL_RDP_USER_01\\Downloads";
+		 String expectedFileName = "UMS-CompanyDetails";
+
+		 File directory = new File(directoryPath);
+		 File[] files = directory.listFiles();
+
+		 boolean fileExists = false;
+		 if (files != null) {
+		     for (File file : files) {
+		         if (file.getName().startsWith(expectedFileName)) {
+		             fileExists = true;
+		             break;
+		         }
+		     }
+		 }
+
+		 Assert.assertTrue(fileExists);*/
+		 String expectedFileName = "UMS-CompanyDetails";
+		 String userHomeDirectory = System.getProperty("user.home");
+		 String downloadsDirectoryPath = userHomeDirectory + "\\Downloads";
+
+		 File directory = new File(downloadsDirectoryPath);
+		 File[] files = directory.listFiles();
+
+		 boolean fileExists = false;
+		 if (files != null) {
+		     for (File file : files) {
+		         if (file.getName().startsWith(expectedFileName)) {
+		             fileExists = true;
+		             break;
+		         }
+		     }
+		 }
+
+		 Assert.assertTrue(fileExists);
+	        test.info("Verified there is download company report on Super admin page");
+	        HelperFunctions.staticWait(5);
+		
+	}
+	
 	
 	
 	

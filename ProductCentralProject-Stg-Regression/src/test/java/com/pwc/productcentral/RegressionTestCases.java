@@ -6084,6 +6084,529 @@ public class RegressionTestCases extends BasePage {
         }
 	
 	}
+	@Test
+	public void WEB_315() throws Exception{
+		String testName = "Verify that the author will be able to add both the image and texts"
+				+"Verify that the new component will allow small image to be placed on a content page along with other texts";
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 82));
+	        lpo.setLogin4();
+	        ap.setColumnImage(test);
+	        test.pass("WEB_314 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	@Test
+	public void WEB_316() throws Exception{
+		String testName = "Verify that preferences option is not present for the internal users when he logs in with PWC credentials";
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 15));
+	        lpo.setLogin2();
+	        pp.setPreferencesModalNotDisplayed();
+	        test.pass("WEB_315 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	@Test
+	public void WEB_317() throws Exception{
+		String testName = "Verify that, new horizontal 'divider' component is added to the component library";
+        ExtentTest test = extent.createTest(testName);
+
+        try {
+            Driver.getDriver().get(read1.getCellData("VALUE", 83));
+            lpo.setLogin4();
+    	    ap.setHorizontalDivider(test);
+            test.pass("WEB_316 passed");
+        } catch (Exception e) {
+            String screenshotPath = takeScreenshot(testName);
+            test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        }
+        if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+            Assert.fail("Test case failed: " + testName);
+        }
+	
+	}
+	@Test
+	public void WEB_318() throws Exception{
+		String testName = "Verify that when the user clicks on image, it will by default open in a modal window"
+				+"Verify that when user click on image component then image open in the modal window";
+        ExtentTest test = extent.createTest(testName);
+
+        try {
+            Driver.getDriver().get(read1.getCellData("VALUE", 82));
+            lpo.setLogin4();
+    	    ap.setColumnImgaeModal(test);
+            test.pass("WEB_317 passed");
+        } catch (Exception e) {
+            String screenshotPath = takeScreenshot(testName);
+            test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        }
+        if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+            Assert.fail("Test case failed: " + testName);
+        }
+	
+	}
+	@Test
+	public void WEB_319() throws Exception{
+		String testName = "Verify that there are multiple MyProducts+ tiles for each and every page denoted as top-level Document"
+				+"/Verify that the title of the My Product+ tile is same as the title given/author for the top level document"
+				+"/Verify that only the Document page shows in the my product page not every page created for product";
+        ExtentTest test = extent.createTest(testName);
+
+        try {
+            Driver.getDriver().get(read1.getCellData("VALUE", 80));
+            lpo.setLogin4();
+    	    ap.setTopLevel(test);
+            test.pass("WEB_318 passed");
+        } catch (Exception e) {
+            String screenshotPath = takeScreenshot(testName);
+            test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        }
+        if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+            Assert.fail("Test case failed: " + testName);
+        }
+	
+	}
+	@Test
+	public void WEB_320() throws Exception{
+		String testName = "Verify that for gated asset and pages following tags are mandatory Audience, My Product Doc Category, Product, Portfolio"
+				+"/Verify Ausience tag field is mandatory for gated asset";
+        ExtentTest test = extent.createTest(testName);
+
+        try {
+            Driver.getDriver().get(read1.getCellData("VALUE", 86));
+            lpo.setLogin4();
+    	    ap.setMandatoryPCtags(test);
+            test.pass("WEB_319 passed");
+        } catch (Exception e) {
+            String screenshotPath = takeScreenshot(testName);
+            test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        }
+        if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+            Assert.fail("Test case failed: " + testName);
+        }
+	
+	}
+	@Test
+	public void WEB_321() throws Exception{
+		String testName = "Verify that each time user apply the filters then search result number is refreshed and matches the search results";
+        ExtentTest test = extent.createTest(testName);
+
+        try {
+            Driver.getDriver().get(read1.getCellData("VALUE", 15));
+    	    hp.setSearchResultNumber();
+            test.pass("WEB_320 passed");
+        } catch (Exception e) {
+            String screenshotPath = takeScreenshot(testName);
+            test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        }
+        if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+            Assert.fail("Test case failed: " + testName);
+        }
+	
+	}
+	@Test
+	public void WEB_322() throws Exception{
+		String testName = "Verify that the content will be copied along with table styling, layout from the source page";
+        ExtentTest test = extent.createTest(testName);
+
+        try {
+            Driver.getDriver().get(read1.getCellData("VALUE", 83));
+            lpo.setLogin4();
+    	    ap.setTableContent(test);
+            test.pass("WEB_321 passed");
+        } catch (Exception e) {
+            String screenshotPath = takeScreenshot(testName);
+            test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        }
+        if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+            Assert.fail("Test case failed: " + testName);
+        }
+	
+	}
+	@Test
+	public void WEB_323() throws Exception{
+		String testName = "Verify that the author is able to hide and show the breadcrumb at the page level on MyProduct+ pages";
+        ExtentTest test = extent.createTest(testName);
+
+        try {
+            Driver.getDriver().get(read1.getCellData("VALUE", 87));
+            lpo.setLogin4();
+    	    ap.setHideBreadcrumbs(test);
+            test.pass("WEB_322 passed");
+        } catch (Exception e) {
+            String screenshotPath = takeScreenshot(testName);
+            test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        }
+        if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+            Assert.fail("Test case failed: " + testName);
+        }
+	
+	}
+	@Test
+	public void WEB_324() throws Exception{
+		String testName = "Verify that an any changes within the children pages of 'top level' page is consider a change to 'top level' Document";
+        ExtentTest test = extent.createTest(testName);
+
+        try {
+            Driver.getDriver().get(read1.getCellData("VALUE", 82));
+            lpo.setLogin4();
+    	    ap.setChildPageUpdate(test);
+            test.pass("WEB_323 passed");
+        } catch (Exception e) {
+            String screenshotPath = takeScreenshot(testName);
+            test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        }
+        if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+            Assert.fail("Test case failed: " + testName);
+        }
+	
+	}
+	@Test
+	public void WEB_325() throws Exception{
+		String testName = "Verify that 'Internal Only Access' checkbox is removed from both asset and pages properties and exist in Audience dropdown(Asset Page)"
+				+"/Verify that Audience and Portfolio tag is visible in the asset Properties";
+        ExtentTest test = extent.createTest(testName);
+
+        try {
+            Driver.getDriver().get(read1.getCellData("VALUE", 86));
+            lpo.setLogin4();
+    	    ap.setInternalOnly(test);
+            test.pass("WEB_324 passed");
+        } catch (Exception e) {
+            String screenshotPath = takeScreenshot(testName);
+            test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        }
+        if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+            Assert.fail("Test case failed: " + testName);
+        }
+	
+	}
+	
+	@Test
+	public void WEB_326() throws Exception{
+		String testName = "Verify that 'Internal Only Access' checkbox is removed from both asset and pages properties and exist in Audience dropdown(Page Properties)"
+				+"/Verify that Audience tag field is mandatory for pages"+"/Verify that Audience and Portfolio tag is visible in the page template";
+        ExtentTest test = extent.createTest(testName);
+
+        try {
+            Driver.getDriver().get(read1.getCellData("VALUE", 80));
+            lpo.setLogin4();
+    	    ap.setInternalOnly2(test);
+            test.pass("WEB_325 passed");
+        } catch (Exception e) {
+            String screenshotPath = takeScreenshot(testName);
+            test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        }
+        if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+            Assert.fail("Test case failed: " + testName);
+        }
+	
+	}
+	@Test
+	public void WEB_327() throws Exception{
+		String testName = "Verify that the current page is displayed in bold black text in Related link component"
+				+"/Verify that all the links are sticky based on the scroll position";
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 57));
+	        lpo.setLogin4();
+	        ap.setRelatedLinksTextandSticky(test);
+	        test.pass("WEB_326 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+	
+	}
+	@Test
+	public void WEB_328() throws Exception{
+		String testName = "Verify that the component is validating the completion of the html code and if code is not properly closed then throws an error"
+				+"/Verify that author is able to add inline CSS styles within the code"
+				+"/Verify the ability of performing add,edit,delete actions on Embed HTML component";
+	
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 90));
+	        lpo.setLogin4();
+	        ap.setEmbedHTML(test);
+	        test.pass("WEB_327 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	@Test
+	public void WEB_329() throws Exception{
+		String testName = "Verify product ID field can accept same value for multiple products";
+	
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 13));
+	        //lpo.setLogin4();
+	        ums.setProductIDSameValue(test);
+	        test.pass("WEB_328 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	@Test
+	public void WEB_330() throws Exception{
+		String testName = "Verify that Workflow Report elements are displayed when the report is executed";
+	
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 92));
+	        lpo.setLogin4();
+	        ap.setGettingReport();
+	        test.pass("WEB_329 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	@Test
+	public void WEB_331() throws Exception{
+		String testName = "Verify that when the user clicks on the tile or a block(all reasources and release notes) and it is linked with a page(MyProduct+), then it opens in a same tab"
+				+"/ Verify these videos will not be shown in 'Latest', 'For You' or 'All Resources' section by itself but pages with the video will appear";
+	
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 80));
+	        lpo.setLogin4();
+	        ap.setVideosonResources(test);
+	        test.pass("WEB_330 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+
+	@Test
+	public void WEB_332() throws Exception{
+		String testName = "verify these videos will not be the part of the search results by itself but the pages with the video will appear";
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 15));
+	        hp.setSearchResultforVideo();
+	        test.pass("WEB_331 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+	
+	}
+	
+	@Test
+	public void WEB_333() throws Exception{
+		String testName = "Verify that author is able to add links for latest component";
+	
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 93));
+	        lpo.setLogin4();
+	        ap.setLatestLinkAuth();
+	        test.pass("WEB_332 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	
+	@Test
+	public void WEB_334() throws Exception{
+		String testName = "Verify that when user clicks on secondary menu items/icons/chevron with down chevron, secondary menu items extend and level three menu items are displayed";
+	
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 94));
+	        lpo.setLogin4();
+	        ap.setMenuItemChevron(test);
+	        test.pass("WEB_333 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	
+	@Test
+	public void WEB_335() throws Exception{
+		String testName = "Verify that OT cookies settings link is displayed in the footer on privacy hub page";
+	
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 58));
+	        //lpo.setLogin4();
+	        ap.setCustomizeCookies();
+	        test.pass("WEB_334 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	
+	@Test
+	public void WEB_336() throws Exception{
+		String testName = "Verify that when user clicks on the tile or a block(all resources and release notes) and it is linked with an asset, then it opens in a new tab";
+	
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 62));
+	        lpo.setLogin4();
+	        ap.setNewTabAssets(test);
+	        test.pass("WEB_335 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	@Test
+	public void WEB_337() throws Exception{
+		String testName = "Verify that myProduct search box is available on Myproducts+ template.";
+	
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 41));
+	        lpo.setLogin4();
+	        ap.setMyProductPageSearch(test);
+	        test.pass("WEB_336 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	@Test
+	public void WEB_338() throws Exception{
+		String testName = "Verify that Audience tag dropdown is available for all templates excluding the following templates"
+				+"/ Verify that my product doc category tag dropdown is available for following templates only and not for all templates"
+				+"/ Verify that product dropdown is available for following templates only and not for all templates"
+				+"/ Verify that feature tag is available for following templates only and not for all templates"
+				+"/ Verify that portfolio tag is available for following templates only and not for all templates"
+				+"/ Verify that document category dropdown is available for following templates excluding following templates";
+	
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 41));
+	        lpo.setLogin4();
+	        ap.setRequiredTagsEachTemplate(test);
+	        test.pass("WEB_337 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+		
+	}
+	@Test
+	public void WEB_339() throws Exception{
+		String testName = "Verify that able to create users via JIT without First and last names"
+				+"/ Verify that able to create and update user without first name/last name in UMS via UI - By PwC Super admin/Company admin";
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 13));
+	        ums.setCreateUserWithoutFirstandLastName(test);
+	        test.pass("WEB_338 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+	
+	}
+	@Test
+	public void WEB_340() throws Exception{
+		String testName = "Verify that only PwC Super Admin can download the report";
+	    ExtentTest test = extent.createTest(testName);
+
+	    try {
+	        Driver.getDriver().get(read1.getCellData("VALUE", 13));
+	        ums.setDownloadCompanyReport(test);
+	        test.pass("WEB_338 passed");
+	    } catch (Exception e) {
+	        String screenshotPath = takeScreenshot(testName);
+	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	    }
+	    if (test.getModel().getStatus().toString().equalsIgnoreCase("fail")) {
+	        Assert.fail("Test case failed: " + testName);
+	    }
+	
+	}
 	
 	
 	

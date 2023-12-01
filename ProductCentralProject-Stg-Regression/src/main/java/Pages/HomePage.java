@@ -265,6 +265,9 @@ public class HomePage extends HelperFunctions {
 	@FindBy(xpath="//span[@class='total-count']")
 	private WebElement totalCount;
 	
+	@FindBy(xpath="//div[@class='playkit-video-player']")
+	private static List<WebElement> videoPlayers;
+	
 	
 	ReadXLSdata read2=new ReadXLSdata();
 	
@@ -1172,7 +1175,24 @@ public void setSearchResultNumber() {
 
 
 }
-
+public void setSearchResultforVideo() {
+	   HelperFunctions.waitForPageToLoad(60);
+	   WebDriverWait wait3 = new WebDriverWait(Driver.getDriver(), 15);
+	   wait3.until(ExpectedConditions.visibilityOf(searchButton));
+	searchButton.click();
+	HelperFunctions.staticWait(3);
+	
+searchInput.sendKeys("1_6zzb6i5o");
+HelperFunctions.staticWait(2);
+searchInput.sendKeys(Keys.ENTER);
+HelperFunctions.waitForPageToLoad(60);
+Assert.assertTrue(videoPlayers.size()==0);
+HelperFunctions.staticWait(3);
+firstSearchResult.click();
+HelperFunctions.waitForPageToLoad(60);
+wait3.until(ExpectedConditions.visibilityOf(videoPlayers.get(0)));
+HelperFunctions.staticWait(3);
+}
 
 	
 	
