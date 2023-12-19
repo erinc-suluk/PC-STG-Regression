@@ -41,7 +41,7 @@ public class ProductListingPage extends HelperFunctions {
 	
 	
 	
-	@FindBy(xpath="//div[@class='cmp-related-links__items']//div//a")
+	@FindBy(xpath="//li[@class='cmp-related-links__link']//a")
 	private static List<WebElement> allLinks;
 	
 	@FindBy(xpath="//div[@class='cmp-related-links']")

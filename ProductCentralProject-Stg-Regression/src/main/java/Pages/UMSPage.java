@@ -387,13 +387,13 @@ public class UMSPage extends HelperFunctions {
 	@FindBy(xpath="//mat-expansion-panel-header[contains(@id, 'mat-expansion-panel-header')]//span")
 	private static List<WebElement> companyElements;
 	
-	@FindBy(xpath="//span[normalize-space()='On']")
+	@FindBy(xpath="//ap-toggle[@name='companyIsLocked1']//span[normalize-space()='On']")
 	private static WebElement on;
 	
-	@FindBy(xpath="//span[normalize-space()='Off']")
+	@FindBy(xpath="//ap-toggle[@name='companyIsLocked1']//span[normalize-space()='Off']")
 	private static WebElement off;
 	
-	@FindBy(xpath="//button[@role='switch']")
+	@FindBy(xpath="//button[@name='companyIsLocked1']")
 	private static WebElement switchButton;
 	
 	@FindBy(xpath="//div[normalize-space()='Locked Automation']")
@@ -2797,7 +2797,20 @@ public class UMSPage extends HelperFunctions {
 		endDate2.sendKeys(formattedDate2);
 		HelperFunctions.staticWait(2);
 		submitButton.click();
-		WebDriverWait wait5 = new WebDriverWait(Driver.getDriver(), 10);
+		HelperFunctions.staticWait(5);
+		searchCompany.click();
+		HelperFunctions.staticWait(2);
+		searchCompany.clear();
+		HelperFunctions.staticWait(2);
+		test.info("Clicked on search company and search company automation");
+		searchCompany.sendKeys(auto);
+		HelperFunctions.staticWait(2);
+		searchButton.click();
+		test.info("Wait for company automation visibility");
+		//WebDriverWait wait1 = new WebDriverWait(Driver.getDriver(), 10);
+		wait1.until(ExpectedConditions.visibilityOf(automation3));
+		automation3.click();
+		WebDriverWait wait5 = new WebDriverWait(Driver.getDriver(), 30);
 		wait5.until(ExpectedConditions.visibilityOf(colsforcompany.get(0)));
 		Assert.assertTrue(colsforcompany.get(0).isDisplayed());
 		HelperFunctions.staticWait(2);

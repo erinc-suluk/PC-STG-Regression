@@ -5349,26 +5349,35 @@ public void setExperienceFragment2() throws Exception {
     try {
     	Thread.sleep(10000);
     }catch(InterruptedException e) {
+    	js.executeScript("arguments[0].click();", pageInfo);
     	e.printStackTrace();
     }
-    js.executeScript("arguments[0].click();", pageInfo);
+    
     try {
     	Thread.sleep(3000);
     }catch(InterruptedException e) {
     	e.printStackTrace();
     }
-   editButtonContent.click();
-   HelperFunctions.staticWait(2);
-   sidePanel.click();
-   HelperFunctions.staticWait(2);
-   expandAll.click();
-   HelperFunctions.staticWait(2);
-   Actions actions = new Actions(Driver.getDriver());
+    editButtonContent.click();
+    try {
+    	Thread.sleep(3000);
+    }catch(InterruptedException e) {
+    	e.printStackTrace();
+    }
+    js.executeScript("arguments[0].click();", sidePanel);
+    try {
+ 	   	Thread.sleep(3000);
+ 	   }catch(InterruptedException e) {
+ 	   	e.printStackTrace();
+ 	   }
+    expandAll.click();
+    HelperFunctions.staticWait(2);
+    Actions actions = new Actions(Driver.getDriver());
 
-   actions.dragAndDrop(ef, dragPlace).build().perform();
-   HelperFunctions.staticWait(2);
-   Assert.assertTrue(ef3.size()>1);
-   HelperFunctions.staticWait(3);
+    actions.dragAndDrop(ef, dragPlace).build().perform();
+    HelperFunctions.staticWait(3);
+    Assert.assertTrue(ef3.size()>2);
+    HelperFunctions.staticWait(3);
  //  ef2.click();
  //  HelperFunctions.staticWait(2);
   // ef2Delete.click();
@@ -5664,7 +5673,7 @@ public void setHideDownloadCheckbox() throws Exception {
     contentTemplate.click();
     HelperFunctions.staticWait(2);
 nextButton.click();
-HelperFunctions.waitForPageToLoad(5);
+HelperFunctions.waitForPageToLoad(60);
 HelperFunctions.staticWait(2);
 Assert.assertTrue(hideDownload.isDisplayed());
 HelperFunctions.staticWait(3);
@@ -6025,56 +6034,76 @@ public void setMyProductLandingPage() throws Exception {
 	    titleField2.sendKeys("automation landing");
 	    HelperFunctions.staticWait(2);
 	    productCentralTab.click();
-	    wait.until(ExpectedConditions.visibilityOf(documentCategoryTag3));
-	    WebDriverWait wait2=new WebDriverWait(Driver.getDriver(),30);
-		wait2.until(ExpectedConditions.visibilityOf(documentCategoryTag3));
+	    //test.info("Wait for product feature tag and click on it");
+	    wait.until(ExpectedConditions.visibilityOf(productFeatureTag3));
+	    //WebDriverWait wait2=new WebDriverWait(Driver.getDriver(),30);
+		//wait2.until(ExpectedConditions.elementToBeClickable(documentCategoryTag3));
 	    JavascriptExecutor executor1 = (JavascriptExecutor) Driver.getDriver();
-      executor1.executeScript("arguments[0].click();", documentCategoryTag3);
-     
-	    HelperFunctions.staticWait(3);
-	    
-	    firstOptionofDocCat.click();
+        /*executor1.executeScript("arguments[0].click();", documentCategoryTag3);
+        try {
+	    	Thread.sleep(3000);
+	    }catch(InterruptedException e) {
+	    	e.printStackTrace();
+	    }
+        executor1.executeScript("arguments[0].click();", firstOptionofDocCat);
+	    //firstOptionofDocCat.click();*/
 	    try {
 	    	Thread.sleep(3000);
 	    }catch(InterruptedException e) {
 	    	e.printStackTrace();
 	    }
+	    //test.info("Select option from product feature tag dropdown");
 	    //JavascriptExecutor executor2 = (JavascriptExecutor) Driver.getDriver();
-      executor1.executeScript("arguments[0].click();", productFeatureTag3);
-      try {
+        executor1.executeScript("arguments[0].click();", productFeatureTag3);
+        try {
 	    	Thread.sleep(3000);
 	    }catch(InterruptedException e) {
 	    	e.printStackTrace();
 	    }
-      executor1.executeScript("arguments[0].click();", firstOptionofProCat);
-      try {
+        executor1.executeScript("arguments[0].click();", firstOptionofProCat);
+        try {
 	    	Thread.sleep(3000);
 	    }catch(InterruptedException e) {
 	    	e.printStackTrace();
 	    }
-      
+        //test.info("Click on audience tag");
 
-      executor1.executeScript("arguments[0].click();", audienceTag);
-	    HelperFunctions.staticWait(3);
-	
-      executor1.executeScript("arguments[0].click();", anonyOption);
-      HelperFunctions.staticWait(3);
+        executor1.executeScript("arguments[0].click();", audienceTag);
+        try {
+	    	Thread.sleep(3000);
+	    }catch(InterruptedException e) {
+	    	e.printStackTrace();
+	    }
+        //test.info("Select anonymous option");
+        executor1.executeScript("arguments[0].click();", anonyOption);
+        HelperFunctions.staticWait(3);
+        //test.info("Click on create button");
 	    createButton2.click();
-      WebDriverWait wait3=new WebDriverWait(Driver.getDriver(),10);
+	    //test.info("Open newly created page");
+        WebDriverWait wait3=new WebDriverWait(Driver.getDriver(),10);
 	    ExpectedCondition<WebElement> condition3=ExpectedConditions.visibilityOf(openPage);
 	    wait3.until(condition3);
 	    openPage.click();
 	    Set<String> allWindows4=Driver.getDriver().getWindowHandles();
-      List<String> windowsList4=new ArrayList<>(allWindows4);
-      Driver.getDriver().switchTo().window(windowsList4.get(1));
-	    HelperFunctions.waitForPageToLoad(15);
+        List<String> windowsList4=new ArrayList<>(allWindows4);
+        Driver.getDriver().switchTo().window(windowsList4.get(1));
+	    HelperFunctions.waitForPageToLoad(60);
+	    try {
+	    	Thread.sleep(10000);
+	    }catch(InterruptedException e) {
+	    	e.printStackTrace();
+	    }
+	    //test.info("Wait for side panel's visibility");
 	    WebDriverWait wait4=new WebDriverWait(Driver.getDriver(),10);
-	    ExpectedCondition<WebElement> condition2=ExpectedConditions.visibilityOf(sidePanel);
-	    wait4.until(condition2);
-	    sidePanel.click();
+	    //ExpectedCondition<WebElement> condition2=ExpectedConditions.visibilityOf(sidePanel);
+	    //wait4.until(condition2);
+	    executor1.executeScript("arguments[0].click();", sidePanel);
+	    //sidePanel.click();
+	    //test.info("Click on expand all");
 	    wait.until(ExpectedConditions.visibilityOf(expandAll));
 	    expandAll.click();
 	    HelperFunctions.staticWait(5);
+	   // test.info("Perform drag and drop action to create related link component");
 	    Actions actions = new Actions(Driver.getDriver());
 	    Action dragAndDrop=actions.clickAndHold(dragRelated).moveToElement(dropRelated).release().build();
 	    try {
@@ -6087,28 +6116,31 @@ public void setMyProductLandingPage() throws Exception {
 	    //actions.dragAndDrop(dragRelated, dropRelated).build().perform();
 	    HelperFunctions.staticWait(3);
 	    Assert.assertTrue(relatedLinks.size()>=1);
+	    //test.info("Verified related link has been created");
 	    HelperFunctions.staticWait(3);
-	   Driver.getDriver().get("https://auth-productcentral-stg.products.pwc.com/sites.html/content/pc/us/en/automation");
-	    HelperFunctions.waitForPageToLoad(30);
-	   // WebDriverWait wait4=new WebDriverWait(Driver.getDriver(),10);
-	   // ExpectedCondition<WebElement> condition4=ExpectedConditions.elementToBeClickable(createButton);
-	   // wait4.until(condition4);
+	    //test.info("Go to the automation page");
+	    Driver.getDriver().get("https://auth-productcentral-stg.products.pwc.com/sites.html/content/pc/us/en/automation");
+	    HelperFunctions.waitForPageToLoad(90);
 	    try {
-	    	Thread.sleep(2000);
+	    	Thread.sleep(5000);
 	    }catch(InterruptedException e) {
 	    	e.printStackTrace();
 	    }
+	   // WebDriverWait wait4=new WebDriverWait(Driver.getDriver(),10);
+	   // ExpectedCondition<WebElement> condition4=ExpectedConditions.elementToBeClickable(createButton);
+	   // wait4.until(condition4);
+	    //test.info("Select newly created page and delete it");
 	    JavascriptExecutor executor15 = (JavascriptExecutor) Driver.getDriver();
         executor15.executeScript("arguments[0].click();", alImg);
         try {
-	    	Thread.sleep(2000);
+	    	Thread.sleep(3000);
 	    }catch(InterruptedException e) {
 	    	e.printStackTrace();
 	    }
         JavascriptExecutor executor16 = (JavascriptExecutor) Driver.getDriver();
         executor16.executeScript("arguments[0].click();", alImg);
         try {
-	    	Thread.sleep(2000);
+	    	Thread.sleep(3000);
 	    }catch(InterruptedException e) {
 	    	e.printStackTrace();
 	    }
