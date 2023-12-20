@@ -6402,11 +6402,12 @@ public void setContentBox() throws Exception {
 	    WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 30);
 	    //wait.until(ExpectedConditions.visibilityOf(pageInfo));
 	    try {
-	    	Thread.sleep(10000);
+	    	Thread.sleep(7000);
 	    }catch(InterruptedException e) {
+	    	js.executeScript("arguments[0].click();", pageInfo);
 	    	e.printStackTrace();
 	    }
-	    js.executeScript("arguments[0].click();", pageInfo);
+	    
 	    try {
 	    	Thread.sleep(3000);
 	    }catch(InterruptedException e) {
@@ -6428,11 +6429,12 @@ public void setContentBox() throws Exception {
 	    HelperFunctions.staticWait(2);
 	    checkIcon.click();
 	    try {
-	    	Thread.sleep(10000);
+	    	Thread.sleep(7000);
 	    }catch(InterruptedException e) {
+	    	js.executeScript("arguments[0].click();", pageInfo);
 	    	e.printStackTrace();
 	    }
-	    js.executeScript("arguments[0].click();", pageInfo);
+	    
 	    try {
 	    	Thread.sleep(3000);
 	    }catch(InterruptedException e) {
@@ -6454,11 +6456,12 @@ public void setContentBox() throws Exception {
 		//ExpectedCondition<WebElement> condition3=ExpectedConditions.elementToBeClickable(editButtonContent);
 		//wait3.until(condition3);
 	    try {
-	    	Thread.sleep(10000);
+	    	Thread.sleep(7000);
 	    }catch(InterruptedException e) {
+	    	 js.executeScript("arguments[0].click();", pageInfo);
 	    	e.printStackTrace();
 	    }
-	    js.executeScript("arguments[0].click();", pageInfo);
+	   
 	    try {
 	    	Thread.sleep(3000);
 	    }catch(InterruptedException e) {
@@ -6480,11 +6483,12 @@ public void setContentBox() throws Exception {
 	    HelperFunctions.staticWait(2);
 	    checkIcon.click();
 	    try {
-	    	Thread.sleep(10000);
+	    	Thread.sleep(7000);
 	    }catch(InterruptedException e) {
+	    	js.executeScript("arguments[0].click();", pageInfo);
 	    	e.printStackTrace();
 	    }
-	    js.executeScript("arguments[0].click();", pageInfo);
+	    
 	    try {
 	    	Thread.sleep(3000);
 	    }catch(InterruptedException e) {
@@ -6495,7 +6499,7 @@ public void setContentBox() throws Exception {
 	    Driver.getDriver().switchTo().frame(0);
 	    HelperFunctions.staticWait(2);
 	    Assert.assertTrue(privacyTitle1.getText().equalsIgnoreCase(actualTitle));
-	    HelperFunctions.staticWait(3);
+	    HelperFunctions.staticWait(5);
 	    
 	    
 		
