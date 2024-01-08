@@ -178,7 +178,7 @@ public class HomePage extends HelperFunctions {
 	@FindBy(xpath="//div[@class='cmp-breadcrumb']//a")
 	private WebElement breadCrumb;
 	
-	@FindBy(xpath="//input[@aria-label='Search Product']")
+	@FindBy(xpath="//input[contains(@aria-label, 'Search Product')]")
 	private WebElement searchProducts;
 	
 	@FindBy(xpath="//div[@class='ap-option-item']")

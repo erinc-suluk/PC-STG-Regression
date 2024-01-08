@@ -2989,7 +2989,7 @@ public class UMSPage extends HelperFunctions {
 		test.info("Wait for the page to load.");
 		HelperFunctions.waitForPageToLoad(30);
 		HelperFunctions.staticWait(3);
-		read1.setExcelFile("./testdata.xlsx", "QA");
+		read1.setExcelFile("./testdata.xlsx", "STG");
 		email.sendKeys(read1.getCellData("VALUE", 44));
 		next.click();
 		HelperFunctions.waitForPageToLoad(20);
@@ -3045,7 +3045,7 @@ public class UMSPage extends HelperFunctions {
 		test.info("Wait for the page to load.");
 		HelperFunctions.waitForPageToLoad(90);
 		HelperFunctions.staticWait(3);
-		read1.setExcelFile("./testdata.xlsx", "QA");
+		read1.setExcelFile("./testdata.xlsx", "STG");
 		email.sendKeys(read1.getCellData("VALUE", 44));
 		HelperFunctions.staticWait(2);
 		next.click();
@@ -3151,7 +3151,7 @@ public class UMSPage extends HelperFunctions {
 	   	    searchUsers.click();
 	   	    HelperFunctions.staticWait(2);
 	   	 test.info("Send email");
-		    searchUsers.sendKeys(mockMail);
+		    searchUsers.sendKeys(mockMail2);
 		    WebDriverWait wait6 = new WebDriverWait(Driver.getDriver(), 10);
 			wait6.until(ExpectedConditions.visibilityOf(emailForVerification));
 			HelperFunctions.staticWait(3);
@@ -3162,7 +3162,7 @@ public class UMSPage extends HelperFunctions {
    	    	 deleteUser.click();
    	    }
    	    HelperFunctions.staticWait(5);
-   	 test.info("Click on search field");
+   	/* test.info("Click on search field");
 	    searchUsers.click();
 	    HelperFunctions.staticWait(2);
 	    searchUsers.clear();
@@ -3179,7 +3179,7 @@ public class UMSPage extends HelperFunctions {
     if(deleteUser.isDisplayed()) {
     	 deleteUser.click();
     }
-    HelperFunctions.staticWait(5);
+    HelperFunctions.staticWait(5);*/
    	    
    	   
 	}
@@ -3187,7 +3187,7 @@ public class UMSPage extends HelperFunctions {
 		test.info("Wait for the page to load.");
 		HelperFunctions.waitForPageToLoad(90);
 		HelperFunctions.staticWait(3);
-		read1.setExcelFile("./testdata.xlsx", "QA");
+		read1.setExcelFile("./testdata.xlsx", "STG");
 		email.sendKeys(read1.getCellData("VALUE", 44));
 		HelperFunctions.staticWait(2);
 		next.click();

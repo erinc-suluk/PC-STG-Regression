@@ -6329,7 +6329,7 @@ public class RegressionTestCases extends BasePage {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 57));
 	        lpo.setLogin4();
 	        ap.setRelatedLinksTextandSticky(test);
-	        test.pass("WEB_326 passed");
+	        test.pass("WEB_327 passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
 	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
@@ -6351,7 +6351,7 @@ public class RegressionTestCases extends BasePage {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 90));
 	        lpo.setLogin4();
 	        ap.setEmbedHTML(test);
-	        test.pass("WEB_327 passed");
+	        test.pass("WEB_328 passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
 	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
@@ -6371,7 +6371,7 @@ public class RegressionTestCases extends BasePage {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 13));
 	        //lpo.setLogin4();
 	        ums.setProductIDSameValue(test);
-	        test.pass("WEB_328 passed");
+	        test.pass("WEB_329 passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
 	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
@@ -6515,7 +6515,7 @@ public class RegressionTestCases extends BasePage {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 62));
 	        lpo.setLogin4();
 	        ap.setNewTabAssets(test);
-	        test.pass("WEB_335 passed");
+	        test.pass("WEB_336 passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
 	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
@@ -6535,7 +6535,7 @@ public class RegressionTestCases extends BasePage {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 41));
 	        lpo.setLogin4();
 	        ap.setMyProductPageSearch(test);
-	        test.pass("WEB_336 passed");
+	        test.pass("WEB_337 passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
 	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
@@ -6560,7 +6560,7 @@ public class RegressionTestCases extends BasePage {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 41));
 	        lpo.setLogin4();
 	        ap.setRequiredTagsEachTemplate(test);
-	        test.pass("WEB_337 passed");
+	        test.pass("WEB_338 passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
 	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
@@ -6579,7 +6579,7 @@ public class RegressionTestCases extends BasePage {
 	    try {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 13));
 	        ums.setCreateUserWithoutFirstandLastName(test);
-	        test.pass("WEB_338 passed");
+	        test.pass("WEB_339 passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
 	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
@@ -6597,7 +6597,7 @@ public class RegressionTestCases extends BasePage {
 	    try {
 	        Driver.getDriver().get(read1.getCellData("VALUE", 13));
 	        ums.setDownloadCompanyReport(test);
-	        test.pass("WEB_338 passed");
+	        test.pass("WEB_340 passed");
 	    } catch (Exception e) {
 	        String screenshotPath = takeScreenshot(testName);
 	        test.fail(e, MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());

@@ -7548,9 +7548,9 @@ public void setRequiredTagsEachTemplate(ExtentTest test) throws Exception {
 							    test.info("Click on next button");
 							    nextButton.click();
 							    HelperFunctions.waitForPageToLoad(60);
-							    wait.until(ExpectedConditions.visibilityOf(productCentralTab));
+							    wait.until(ExpectedConditions.visibilityOf(productDetailsTab));
 							    test.info("Click on product central tab");
-							    productCentralTab.click();
+							    productDetailsTab.click();
 							    test.info("Select option from document category ");
 								wait2.until(ExpectedConditions.visibilityOf(audienceTag2));
 								Assert.assertTrue(audienceTag2.isDisplayed());
